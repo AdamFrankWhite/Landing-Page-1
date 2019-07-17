@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+#mainMenu {
+  width: 75%;
+}
+
+#navbarNavAltMarkup {
+  float: right;
+}
+
+.navbar-nav a:hover {
+  background-color: #138293;
+  border-radius: 5px;
+}
+
+.jumbotron {
+  height: 750px;
+  background-image: url("forest.jpg");
+
+}
+
+.jumbotron h1,
+.jumbotron p {
+  background-color: rgba(255,255,255,0.5);
+  padding: 0.5em;
+  border-radius: 10px;
+}
+.jumbotron h1 {
+  width: 65%;
+}
+
+.jumbo-content {
+  width: 75%;
+  margin: auto;
+}
+
+img[src="ebookMini.png"] {
+  float: right;
+  border-radius: 30px;
+}
+
+.features,
+.reviews {
+  font-family: Merriweather;
+  color: #138293;
+  margin: auto;
+}
+
+.features {
+  background-color: white;
+}
+
+.feat-rule {
+  width: 40%;
+  margin: auto;
+}
+
+.card-group {
+  width: 90%;
+  margin: 2em auto;
+  display: flex;
+}
+
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  padding: 1em;
+}
+
+.card > img {
+  width: 80px;
+  height: auto;
+  margin: 1em;
+}
+
+.testimonials {
+  background-color: lightgray;
+}
+
+.reviews-rule {
+  width: 40%;
+  margin: auto;
+  margin-bottom: 2em;
+  background-color: white;
+}
+
+
+.carousel-item > p {
+  width: 70%;
+  margin: auto;
+}
+
+.review {
+  background-color: white;
+  width: 60%;
+  height: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.review h2,
+.review cite {
+  display: inline-block;
+  width: 75%;
+}
+
+.review h2 {
+  padding: 1em;
+}
+
+.review-cont {
+  width: 90%;
+  margin: 2em auto;
+  border: lightblue 5px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review-cont img {
+  width: 50px;
+  height: auto;
+}
+
+.review-cont img:first-of-type {
+  align-self: flex-start; /* note floats do not work in a flexbox */
+}
+
+
+.review-cont img:last-of-type {
+  align-self: flex-end;
+}
+
+cite span {
+  font-family: "Merriweather";
+  font-size: 3em;
+  font-weight: bold;
+}
+
+cite span:first-child {
+  display: block;
+  text-align: left;
+}
+
+cite span:last-child {
+  display: block;
+  text-align: right;
+}
+
+@media (min-width: 576px) {
+  .card-group {
+    width: 85%;
+  }
+  .card-group > .card {
+    flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+  }
+}
+
+
+@media (min-width: 920px) {
+  .card-group {
+    width: 45%;
+  }
+  .card-group > .card {
+    flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+  }
+}
