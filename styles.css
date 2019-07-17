@@ -42,7 +42,8 @@ img[src="ebookMini.png"] {
 }
 
 .features,
-.reviews {
+.testimonials,
+.chapters {
   font-family: Merriweather;
   color: #138293;
   margin: auto;
@@ -64,14 +65,14 @@ img[src="ebookMini.png"] {
 }
 
 
-.card {
+.features .card {
   display: flex;
   flex-direction: row;
   border: none;
   padding: 1em;
 }
 
-.card > img {
+.features .card > img {
   width: 80px;
   height: auto;
   margin: 1em;
@@ -97,8 +98,8 @@ img[src="ebookMini.png"] {
 .review {
   background-color: white;
   width: 60%;
-  height: 300px;
-  margin: auto;
+  border-radius: 10px;
+  margin: 2em auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -116,12 +117,28 @@ img[src="ebookMini.png"] {
 }
 
 .review-cont {
-  width: 90%;
+  width: 95%;
   margin: 2em auto;
   border: lightblue 5px solid;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em auto;
+  width: 90%;
+}
+
+.reviewer {
+  font-weight: bold;
+  align-self: flex-end;
+  padding-right: 13%;
+  padding-top: 1em;
 }
 
 .review-cont img {
@@ -131,6 +148,7 @@ img[src="ebookMini.png"] {
 
 .review-cont img:first-of-type {
   align-self: flex-start; /* note floats do not work in a flexbox */
+
 }
 
 
@@ -152,6 +170,18 @@ cite span:first-child {
 cite span:last-child {
   display: block;
   text-align: right;
+}
+
+.chapters-group {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+}
+
+.chapters-group > .card {
+  flex-basis: 33%;
+  flex-wrap: wrap;
 }
 
 @media (min-width: 576px) {
