@@ -2,6 +2,17 @@
   box-sizing: border-box;
 }
 
+h2 {
+  font-weight: bold;
+  letter-spacing: 0.03em;
+}
+
+.text-center > h6 {
+  font-family: Raleway;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
 #mainMenu {
   width: 75%;
 }
@@ -43,7 +54,8 @@ img[src="ebookMini.png"] {
 
 .features,
 .testimonials,
-.chapters {
+.chapters,
+.purchase {
   font-family: Merriweather;
   color: #138293;
   margin: auto;
@@ -78,7 +90,8 @@ img[src="ebookMini.png"] {
   margin: 1em;
 }
 
-.testimonials {
+.testimonials,
+.purchase {
   background-color: lightgray;
 }
 
@@ -175,13 +188,30 @@ cite span:last-child {
 .chapters-group {
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
-  margin: auto;
+  justify-content: space-between;
+  width: 67%;
+  margin: 4em auto;
 }
 
 .chapters-group > .card {
-  flex-basis: 33%;
+  flex-basis: 32%;
   flex-wrap: wrap;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.chapters-group > .card > .card-body {
+  text-align: left;
+}
+
+.chapters-group .card .card-img-top {
+  height: 245px;
+}
+
+.booksAll {
+  border-radius: 10px;
+  margin: 2em;
+  overflow: hidden;
 }
 
 @media (min-width: 576px) {
