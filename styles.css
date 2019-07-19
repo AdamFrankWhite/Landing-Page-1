@@ -5,12 +5,21 @@
 h2 {
   font-weight: bold;
   letter-spacing: 0.03em;
+  font-family: "Roboto Slab";
 }
 
 .text-center > h6 {
   font-family: Raleway;
   font-weight: 600;
   letter-spacing: 0.03em;
+}
+
+.raleway {
+  font-family: Raleway;
+}
+
+.merriweather {
+  font-family: Merriweather;
 }
 
 #mainMenu {
@@ -55,7 +64,8 @@ img[src="ebookMini.png"] {
 .features,
 .testimonials,
 .chapters,
-.purchase {
+.purchase,
+.samples {
   font-family: Merriweather;
   color: #138293;
   margin: auto;
@@ -91,7 +101,7 @@ img[src="ebookMini.png"] {
 }
 
 .testimonials,
-.purchase {
+.samples {
   background-color: lightgray;
 }
 
@@ -212,6 +222,43 @@ cite span:last-child {
   border-radius: 10px;
   margin: 2em;
   overflow: hidden;
+}
+
+#previews {
+  list-style: none;
+  background-color: white;
+  width: 40%;
+  margin: 2em auto;
+  border-radius: 15px;
+  padding: 2em;
+}
+
+#chap1Preview,
+#chap2Preview,
+#chap3Preview,
+#chap4Preview,
+#chap5Preview,
+#chap6Preview,
+#chap7Preview,
+#chap8Preview,
+#chap9Preview {
+  display: none;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 2.5em;
+}
+
+#chap1:hover,
+#chap2:hover,
+#chap3:hover,
+#chap4:hover,
+#chap5:hover,
+#chap6:hover,
+#chap7:hover,
+#chap8:hover,
+#chap9:hover {
+  cursor: pointer;
 }
 
 @media (min-width: 576px) {
