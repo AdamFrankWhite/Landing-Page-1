@@ -8,6 +8,12 @@ h2 {
   font-family: "Roboto Slab";
 }
 
+footer {
+  background-color: black;
+  height: 100px;
+  width: 100%;
+}
+
 .text-center > h6 {
   font-family: Raleway;
   font-weight: 600;
@@ -46,6 +52,7 @@ h2 {
   background-color: rgba(255,255,255,0.5);
   padding: 0.5em;
   border-radius: 10px;
+  width: 65%;
 }
 .jumbotron h1 {
   width: 65%;
@@ -220,12 +227,13 @@ cite span:last-child {
 
 .booksAll {
   border-radius: 10px;
-  margin: 2em;
+  margin-top: 2em;
   overflow: hidden;
 }
 
 #previews {
   list-style: none;
+  text-align: left;
   background-color: white;
   width: 40%;
   margin: 2em auto;
@@ -259,6 +267,32 @@ cite span:last-child {
 #chap8:hover,
 #chap9:hover {
   cursor: pointer;
+}
+
+.purchaseBook {
+  width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+.stars {
+  width: 400px;
+  margin: auto;
+  border: 3px black solid;
+}
+
+img[src="icons/stars.png"] {
+  width: 125px;
+  height: auto;
+}
+
+.paperback,
+.ebook {
+  border: 2px black solid;
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 2em;
+  margin-bottom: 2em;
 }
 
 @media (min-width: 576px) {
