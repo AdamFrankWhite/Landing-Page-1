@@ -32,17 +32,21 @@
 		</header>
 		<main>
 
+
 			<div class="jumbotron">
 			  <div class="jumbo-content">
-					<img src="ebookMini.png">
+					<img src="ebookMini.png" alt="Quitting Weed: The Complete Guide">
 					<h1 class="display-4">Is it time you left cannabis behind?</h1>
 
 				  <p class="lead">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
 				  <hr class="my-4">
 
 				  <p>Begin your journey towards sobriety today</p>
-				  <a class="btn btn-primary btn-lg" href="#purchase" role="button">Purchase</a>
+					<a class="btn btn-primary btn-lg" href="#purchase" role="button">Buy Now</a><p>Available as a <a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
+					<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a></p>
+
 					<a class="btn btn-secondary btn-lg" href="#features" role="button">Learn more</a>
+
 				</div>
 			</div>
 
@@ -229,40 +233,40 @@
 						  <img class="card-img-top" src="images/chains.jpg" alt="chains">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 1:</h5><h5>The Invisible Chains</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">The Slow Descent into Addiction, Cannabis Abuse in Perspective, Overcoming the Stigma of Addiction</p>
+						    <a href="#chap1" onclick="previewOpen('#chap1Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/reflect.jpg" alt="reflect">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 2:</h5><h5>Analysing Your Habit</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">Opportunity Costs, The "Benefits" of Weed, The Costs of Weed Use, </p>
+						    <a href="#chap2" onclick="previewOpen('#chap2Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/brain.jpg" alt="brain">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 3:</h5><h5>The Science of Cannabis Addiction</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">Defining addiction, Your Brain's Reward System, How Cannabis Works, Frying Your Reward Circuitry, Cheating Your Reward System.</p>
+						    <a href="#chap3" onclick="previewOpen('#chap3Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/psychology.jpg" alt="mind">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 4:</h5><h5>The Psychology of Addiction</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">What Addiction Represents, Addiction and Other Self-Destructive Behaviours, Childhood Roots of Addiction, Toxic Shame, Other Contributing Factors</p>
+						    <a href="#chap4" onclick="previewOpen('#chap4Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/foggy_path.jpg" alt="foggy path">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 5:</h5><h5>The Quitting Process</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">Quitting Is a Process, Not a Single Event, The Stages of Quitting, Why Quitting is Difficult, Quitting and Willpower, The Return to Reality, Withdrawal Symptoms</p>
+						    <a href="#chap5" onclick="previewOpen('#chap5Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
@@ -349,7 +353,7 @@
 
 									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<p>To assess the impact cannabis has on our lives, we will firstly consider the <strong>opportunity costs</strong> of our use. Then, we will take an in-depth look at the <strong>costs and “benefits”</strong> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
 
 									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
 
@@ -357,13 +361,13 @@
 
 									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <strong>By choosing to use cannabis, you close the door on other opportunities.</strong></p>
 								</div>
 							</li>
 							<li id="chap3">Chapter 3: The Science of Cannabis Addiction
 								<div id="chap3Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 
-									<p>This shortcut to pleasure has a major neurological consequence: <em>dopamine deregulation.</em> To counter the continual flood of dopamine, the brain reduces the number of dopamine receptors, so it doesn’t get overwhelmed by all the dopamine floating around. This process – called “blunting” – results in decreased motivation, impaired memory, mood swings, and a host of other problems. </p>
+									<p>This shortcut to pleasure has a major neurological consequence: <strong>dopamine deregulation.</strong> To counter the continual flood of dopamine, the brain reduces the number of dopamine receptors, so it doesn’t get overwhelmed by all the dopamine floating around. This process – called “blunting” – results in decreased motivation, impaired memory, mood swings, and a host of other problems. </p>
 
 									<p>These effects were brilliantly illustrated by a study conducted by Nora D. Volkow. In the experiment, cannabis users were given methylphenidate (aka Ritalin) alongside non-users. The stimulant provided a huge increase in dopamine. Interestingly, both groups received the dopamine boost; however, whereas the non-users reported an increased heart rate, felt restless, and stimulated, the heavy cannabis users barely experienced any effects of the Ritalin – evidence of a blunted reward system. Volkow was so surprised by this that she double-checked the drug hadn’t passed its expiry date.</p>
 
@@ -404,112 +408,162 @@
 
 									<p>In this chapter, we aim to understand the root causes behind our addiction. We will begin by exploring what our cannabis abuse represents, considering its role as an emotional crutch. Next, we’ll consider addiction in relation to other self-destructive behaviours and attitudes you may have. We will then reflect on the possible origins of addiction within our childhood and adolescent years. The final part of the chapter will identify other contributing forces that motivate us to continue smoking.</p>
 
-
 									<h6 class="text-center font-weight-bold">What Addiction Represents<h6>
 
-									<p>Cannabis addiction is a symptom, often part of a broader pattern of self-neglect. The broad, underlying factor behind addiction is <em>the inability to deal with negative emotions.</em></p>
+									<p>Cannabis addiction is a symptom, often part of a broader pattern of self-neglect. The broad, underlying factor behind addiction is <strong>the inability to deal with negative emotions.</strong></p>
 
 									<p>Self-regulation is the ability to handle your emotions and behaviour. Self-regulation is the ability to act in your long-term best interests, responding to your emotions in healthy, positive ways. It is the ability to accept and tolerate uncomfortable thoughts and feelings, instead of trying to avoid them.</p>
 								</div>
 							</li>
 							<li id="chap5">Chapter 5: The Quitting Process
-								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
-									<p class="text-right font-weight-bold">Harry Browne</p>
+								<div id="chap5Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<h6 class="text-center font-weight-bold">Why Quitting is Difficult<h6>
 
-									<p>Having become so de-sensitized to our use, many of us are not fully aware of the damage our addiction causes. When we honestly consider the true cost of our cannabis use, we strengthen our commitment to quitting.</p>
+									<p>To state the obvious, if quitting were easy, we would have done it already.</p>
 
-									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
+									<p>The main reason we struggle to leave cannabis behind is because, from years of daily smoking, <strong>we have developed very strong emotional and physiological bonds to it.</strong></p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<p>Addiction is a heavily reinforced habit. Habits are, by definition, hard to break. When we consider how long we have been smoking for, and the powerful motives behind our use, it is easy to see why some of us struggle to quit.</p>
 
-									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
+									<p>Chemically, our brains crave the dopamine surge cannabis delivers. The brain’s reward system has been over-stimulated, with noticeable consequences. We may also be self-medicating for depression, anxiety, or other mental health issues.</p>
 
-									<h6 class="text-center font-weight-bold">Opportunity Costs<h6>
+									<p>Spiritually, weed has become part of our identity. It has been a daily habit for many months and years. It has been an escape – a sort of sanctuary from the responsibility and pressures of life. </p>
 
-									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
+									<p>Emotionally, our minds crave the sense of comfort and the emotional numbness weed provides. We have used it as a crutch to cope with our emotions, depending up on it to numb and suppress uncomfortable thoughts and realities.</p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<p>Socially, we fear losing friends and a sense of belonging. We struggle to imagine life without it.</p>
+
+									<p>Emotionally, our minds crave the sense of comfort and the emotional numbness weed provides. We have used it as a crutch to cope with our emotions, depending up on it to numb and suppress uncomfortable thoughts and realities.</p>
+
+									<h6 class="text-center font-weight-bold">Quitting and Willpower<h6>
+
+									<p>Contrary to the empty promises of some self-help books, quitting does require some willpower.</p>
+
+									<p>Some claim quitting is easy and doesn’t require any willpower at all. These individuals are woefully uninformed about the nature of addiction and recovery, and are often in denial of their own addiction. Others over-emphasize willpower’s importance, insisting that if you haven’t already managed to quit, then you aren’t trying hard enough. These two views both underplay and overplay its significance.</p>
 								</div>
 							</li>
 							<li id="chap6">Chapter 6: Quitting Advice and Strategies
-								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
-									<p class="text-right font-weight-bold">Harry Browne</p>
+								<div id="chap6Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<cite>“If you fail to plan, you are planning to fail.”</cite>
+									<p class="text-right font-weight-bold">Benjamin Franklin</p>
 
-									<p>Having become so de-sensitized to our use, many of us are not fully aware of the damage our addiction causes. When we honestly consider the true cost of our cannabis use, we strengthen our commitment to quitting.</p>
+									<p>Quitting successfully requires a plan. Without a plan, you are unnecessarily prolonging your pain, as well as jeopardizing the entire quitting process. Successfully quitting requires both anticipating the pitfalls and obstacles along the way (which is what we have covered so far) and having a solid quitting plan.</p>
 
-									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
+									<p>This chapter outlines the best ways to maximize your quitting chances by offering advice and strategies for quitting. We will firstly outline the central key to quitting – habit replacement – before exploring what sort of activities are most beneficial. Then, we will consider other effective strategies and essential preventative measures, such as joining support groups and deleting dealer contacts. </p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<h6 class="text-center font-weight-bold">New Habits, New Life<h6>
+									<p>Quitting weed creates a huge hole in your life. You <em>must</em> fill this with new habits. Adopting healthy new habits is the key to overcoming addiction.</p>
 
-									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
+									<p>Here’s the big secret: <strong>the best way to beat your addiction is to wholeheartedly focus on building yourself a new life.</strong></p>
 
-									<h6 class="text-center font-weight-bold">Opportunity Costs<h6>
+									<p>There are two reasons for this.</p>
 
-									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
+									<p>Firstly, weed addiction is a symptom of a deeper dissatisfaction with life. Quitting removes the numbing effect of weed on your life, exposing you to reality – the reality you have been avoiding. This is why it is so important to build a mentally and physically healthier life by embracing new habits. <strong>If you do nothing to change the circumstances that drive you towards weed use, relapse is almost certain.</strong></p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<p>Secondly, quitting frees up huge amounts of time. If you are sitting around bored, sooner or later, you will start thinking about smoking, and eventually, you will convince yourself to give in. Fighting boredom drains your willpower and makes quitting much more difficult. </p>
 								</div>
 							</li>
 							<li id="chap7">Chapter 7: Relapses, Obstacles and Mental Gymnastics
-								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
-									<p class="text-right font-weight-bold">Harry Browne</p>
+								<div id="chap7Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 
-									<p>Having become so de-sensitized to our use, many of us are not fully aware of the damage our addiction causes. When we honestly consider the true cost of our cannabis use, we strengthen our commitment to quitting.</p>
+									<h6 class="text-center font-weight-bold">The Slippery Slope of Relapse<h6>
+									<p>When quitting, if you give in and smoke, you have “relapsed.”</p>
 
-									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
+									<p>There are two kinds of relapse: minor and major. </p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<p>Minor relapses are those where you smoke just a little, before going back to quitting no problem – just a small blip in multiple weeks of sobriety. </p>
 
-									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
+									<p>Major relapses are where you continue smoking and put quitting on hold for the foreseeable future, and before you know it, another a week, month, or year has passed. </p>
 
-									<h6 class="text-center font-weight-bold">Opportunity Costs<h6>
+									<p>Every minor relapse carries the risk of a major relapse – undoing any progress you have made and risking the entire quitting process. You think one last time won’t hurt, but before you know it, a minor relapse has become a major relapse. Depression returns, as does the lethargy and brain fog. </p>
 
-									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
+									<p>Therefore, as soon as you smoke, you are taking a huge gamble. It is a very slippery slope from a small relapse to a full-blown major relapse – one where you spend another month to a year smoking away your time, money, and energy. </p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<h6 class="text-center font-weight-bold">How to Approach Relapses<h6>
+
+									<p>Relapses happen. However, every relapse is a <strong>learning opportunity</strong>. </p>
+
+									<p>Each relapse reveals your relationship with weed more clearly. The cycle starts to become familiar: the craving and giving in; the lacklustre high; the depression, paranoia, and anxiety; the panic when you begin to near the end of your supply; the shame and self-loathing once it’s all over. </p>
+
+									<p>Relapses must be treated seriously, but you must also keep things in perspective. Although it is natural to feel guilty and ashamed, this can easily keep you trapped in a cycle of relapsing. The delicate balance is in not being too hard on yourself, but not too easy either. Remind yourself that relapsing is a result of the primitive part of your brain craving the drug, even though the rational part of your brain has decided you need to quit. </p>
+
 								</div>
 							</li>
 							<li id="chap8">Chapter 8: The Quitting Mindset
-								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
-									<p class="text-right font-weight-bold">Harry Browne</p>
+								<div id="chap8Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<h6 class="text-center font-weight-bold">The Quitting Mindset<h6>
 
-									<p>Having become so de-sensitized to our use, many of us are not fully aware of the damage our addiction causes. When we honestly consider the true cost of our cannabis use, we strengthen our commitment to quitting.</p>
+									<p>Quitting cannabis will be much easier if we practice looking at things from a constructive mindset. If you are serious about quitting, embrace the following attitudes:</p>
 
-									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
+									<p><strong>1) Self-Compassion</strong></p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<p>Be kind to yourself. Take care of yourself by engaging in nourishing activities.</p>
 
-									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
+									<p>If you mess up or relapse, don’t beat yourself up. Being too tough on yourself causes a negative cycle of shame, anger and frustration that only serves to keep you stuck in the cycle of addiction. On the other hand, don’t treat it like it doesn’t matter! Minor relapses are not the end of the world – just make sure they don’t turn into major ones. </p>
 
-									<h6 class="text-center font-weight-bold">Opportunity Costs<h6>
+									<p>In moments of struggle, don’t shame yourself for not being good enough or not trying hard enough. </p>
 
-									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
+									<p>Avoid negative self-talk. Instead, acknowledge that quitting is difficult, and remind yourself that it is okay to struggle. Not everything in life can be easy; to expect otherwise is setting yourself up for frustration and disappointment. Overcoming addiction is supposed to be difficult. Think about it: if it were easy to quit, no one would be addicted in the first place.</p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<p>Consider how many millions of addicts there are worldwide, stuck, completely in denial. You are entering the arena; you are stepping into the ring, ready to fight the ogre of addiction. You have the self-awareness and determination to face up to your biggest weakness, which deserves serious respect.</p>
+
+									<p>Stop treating yourself so harshly and start treating yourself with kindness and compassion – you deserve it.</p>
+
+									<p><strong>2) Acceptance</strong></p>
+
+									<p>You <em>must</em> accept that weed has no longer has a place in your life. </p>
+
+									<p>You <em>must</em> accept that you cannot control your weed use. </p>
+
+									<p>Failure to accept either of these truths will eventually cause you to relapse. </p>
+
+									<p>You must also accept the damage you have done to your brain – your brain’s reward system is fried. To heal your broken brain, complete abstinence from weed is required. There is no other option. </p>
+
+									<p>The choice is simple: either you continue to use weed, and continue a life of quiet desperation, inner emptiness, shame, and worry, never finding out your potential; or, you break free from the green prison and transform your life into something unrecognisable from your current situation – one where you are motivated, alive, and in touch with your emotions.</p>
+
+									<p>If you fail to accept your situation, relapse is certain, and you risk losing another year or more of your life. </p>
+
+
 								</div>
 							</li>
 							<li id="chap9">Chapter 9: The Motivation Chapter
 								<div id="chap9Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
-									<p class="text-right font-weight-bold">Harry Browne</p>
+									<h6 class="text-center font-weight-bold">The Benefits of Sobriety<h6>
+									<p><strong>1) Energy</strong></p>
+									<p>One of the most far-reaching benefits of living the weed-free life is the amount of energy you unleash. </p>
 
-									<p>Having become so de-sensitized to our use, many of us are not fully aware of the damage our addiction causes. When we honestly consider the true cost of our cannabis use, we strengthen our commitment to quitting.</p>
+									<p>Having gotten used to your slow, tired way of living, you have long forgotten what having real energy and drive felt like. You may have never considered that weed was responsible. </p>
 
-									<p>This chapter will encourage you to open your eyes to the reality of your addiction and the impact it has on your life. Here, in black and white, we will consider what our habit really costs us – not just in terms of money, but everything else that we give up in the process. </p>
+									<p>Until you experience this surge in energy, you may find it hard to believe – it really is staggering. Through the combination of a new attitude, a healthier reward system, momentum, and increasing confidence, quitting weed is hugely stimulating. When you experience these things again for the first time in a long time, it feels like a new lease on life. </p>
 
-									<p>To assess the impact cannabis has on our lives, we will firstly consider the <em>opportunity costs</em> of our use. Then, we will take an in-depth look at the <em>costs and “benefits”</em> of our weed use.  At the end of the chapter, it should be clear just how devastating your habit truly is. </p>
+									<p>Other potential benefits include the ability to wake up easily and get by with less sleep. You may think that struggling to get out of bed is just who you are. However, without weed interfering with your sleep and energy levels, after a few weeks of sobriety, you may find getting up is easy – no more rushing for work or wasting half the day away in bed. Also, you’ll find you need less sleep and feel more refreshed come morning. When smoking, you might get 9 or 10 hours of sleep and still feel tired; when sober, you can get by on much less and feel much livelier. </p>
 
-									<p>From this point on, we must be honest with ourselves: if we are going to be successful, we must be absolutely clear about the reality of our use. Just as buildings need foundations, we need strong foundations to build our sobriety upon. Denying or minimizing the reality of addiction risks the entire quitting process. </p>
+									<p><strong>2) Time</strong></p>
 
-									<h6 class="text-center font-weight-bold">Opportunity Costs<h6>
+									<p>You’ll be truly astonished by how much time is unlocked when you quit. You’ll feel like the day has doubled, tripled, or even quadrupled in length! It becomes obvious just how time you spent finding, purchasing and thinking about weed, watching TV, mindlessly browsing the web, and generally wasting time.</p>
 
-									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
+									<p>Having ample time takes away huge amounts of stress and pressure that you have placed on yourself through your addiction. Managing your time better, which is something weed really interferes with, goes a long way to improving your general mood and confidence. Coupled with your newfound energy, it is mind-blowing how much you can accomplish in a single day – you can manage your responsibilities much more easily, which helps reduce anxiety by making you feel more in control of your life.</p>
 
-									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <em>By choosing to use cannabis, you close the door on other opportunities.</em></p>
+									<p>Time is the currency of life. Life is short – don’t waste the gift of time having spent your life half-baked and glazed over.</p>
+
+									<p><strong>3) Drive and Ambition</strong></p>
+
+									<p>Remember, back when you were younger, when you had dreams and aspirations? Did they seem to get neglected – or even forgotten – as the months and years of smoking went on?</p>
+
+									<ul>
+										<li>Do you want to change careers?</li>
+										<li>Do you want to have an impact on the world and those around you?</li>
+										<li>Do you want to embark on further study? </li>
+										<li>Do you want to start a business? </li>
+										<li>Do you want to become a freelancer?</li>
+										<li>Do you want to travel?</li>
+										<li>Do you want to volunteer your time to a social cause?</li>
+										<li>Do you want to stop living payday to payday?</li>
+										<li>Do you want to buy your own home?</li>
+									</ul>
+
+									<p>Whatever your aspirations are, now is the time to quit weed, regain your sense of urgency and motivation, follow through, and achieve your goals. </p>
+
 								</div>
 							</li>
 						</ul>
@@ -525,14 +579,31 @@
 						<div class="text-center">
 							<img src="booksAll.png" class="booksAll">
 						</div>
+						<div class="stars">
+							<img src="icons/stars.png">
+							<p>9 Reviews Average: 4.9/5</p>
+						</div>
+						<div class="purchaseBook">
+							<div class="ebook">
+
+								<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><h6>Ebook</h6><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
+							</div>
+							<div class="paperback">
+
+								<a href="https://www.amazon.com/dp/1976799848?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><h6>Paperback</h6><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
+							</div>
+
 					</div>
 				</div>
+			</div>
 			</section>
 		</main>
+		<footer>
+		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="/script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
