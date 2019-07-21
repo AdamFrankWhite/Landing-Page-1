@@ -9,3 +9,7 @@ for (let i=1; i<chapters.length+1; i++) {
     $(chapterID).toggle({"display": "block"})
   })
 }
+
+function previewOpen(chap) {
+  $(chap).toggle({"display": "block"})
+}
