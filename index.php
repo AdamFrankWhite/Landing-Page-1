@@ -233,7 +233,7 @@
 						  <img class="card-img-top" src="images/chains.jpg" alt="chains">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 1:</h5><h5>The Invisible Chains</h5>
-						    <p class="card-text text-muted">The Slow Descent into Addiction, Cannabis Abuse in Perspective, Overcoming the Stigma of Addiction</p>
+						    <p class="card-text text-muted">The Slow Descent into Addiction | Cannabis Abuse in Perspective | Overcoming the Stigma of Addiction</p>
 						    <a href="#chap1" onclick="previewOpen('#chap1Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
@@ -241,7 +241,7 @@
 						  <img class="card-img-top" src="images/reflect.jpg" alt="reflect">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 2:</h5><h5>Analysing Your Habit</h5>
-						    <p class="card-text text-muted">Opportunity Costs, The "Benefits" of Weed, The Costs of Weed Use, </p>
+						    <p class="card-text text-muted">Opportunity Costs | The "Benefits" of Weed | The Costs of Weed Use</p>
 						    <a href="#chap2" onclick="previewOpen('#chap2Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
@@ -249,7 +249,7 @@
 						  <img class="card-img-top" src="images/brain.jpg" alt="brain">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 3:</h5><h5>The Science of Cannabis Addiction</h5>
-						    <p class="card-text text-muted">Defining addiction, Your Brain's Reward System, How Cannabis Works, Frying Your Reward Circuitry, Cheating Your Reward System.</p>
+						    <p class="card-text text-muted">Defining addiction | Your Brain's Reward System | How Cannabis Works | Frying Your Reward Circuitry | Cheating Your Reward System.</p>
 						    <a href="#chap3" onclick="previewOpen('#chap3Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
@@ -257,7 +257,7 @@
 						  <img class="card-img-top" src="images/psychology.jpg" alt="mind">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 4:</h5><h5>The Psychology of Addiction</h5>
-						    <p class="card-text text-muted">What Addiction Represents, Addiction and Other Self-Destructive Behaviours, Childhood Roots of Addiction, Toxic Shame, Other Contributing Factors</p>
+						    <p class="card-text text-muted">What Addiction Represents | Addiction and Other Self-Destructive Behaviours | Childhood Roots of Addiction | Toxic Shame | Other Contributing Factors</p>
 						    <a href="#chap4" onclick="previewOpen('#chap4Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
@@ -265,7 +265,7 @@
 						  <img class="card-img-top" src="images/foggy_path.jpg" alt="foggy path">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 5:</h5><h5>The Quitting Process</h5>
-						    <p class="card-text text-muted">Quitting Is a Process, Not a Single Event, The Stages of Quitting, Why Quitting is Difficult, Quitting and Willpower, The Return to Reality, Withdrawal Symptoms</p>
+						    <p class="card-text text-muted">Quitting Is a Process, Not a Single Event | The Stages of Quitting | Why Quitting is Difficult | Quitting and Willpower | The Return to Reality | Withdrawal Symptoms</p>
 						    <a href="#chap5" onclick="previewOpen('#chap5Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
@@ -273,40 +273,39 @@
 						  <img class="card-img-top" src="images/strategy.jpg" alt="chess">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 6:</h5><h5>Quitting Advice and Strategies</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">New Habits, New Life | Recommended Activities | Essential Quitting Tips</p>
+						    <a href="#chap6" onclick="previewOpen('#chap6Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/obstacle.jpg" alt="obstacle">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 7:</h5><h5>Relapses, Obstacles and Mental Gymnastics</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">The Slippery Slope of Relapse | How to Approach Relapses | Triggers | Emergency Relapse Prevention Strategies | The Pink Cloud | Obstacles to Quitting | Mental Gymnastics</p>
+						    <a href="#chap7" onclick="previewOpen('#chap8Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/mindset.jpg" alt="mindset">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 8:</h5><h5>The Quitting Mindset</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">The Quitting Mindset | Recognising Progress | Restructuring Your Beliefs | Building a New Life | Healthy Expectations | How Will I Know I Have Truly Quit? | Will I Ever Smoke Again?</p>
+						    <a href="#chap8" onclick="previewOpen('#chap8Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/motivation.jpg" alt="motivation">
 						  <div class="card-body">
 						    <h5 class="card-title">Chapter 9:</h5><h5>The Motivation Chapter</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">The Benefits of Sobriety | Quitting Wisdom | Epilogue</p>
+						    <a href="#chap9" onclick="previewOpen('#chap9Preview')" class="btn btn-primary">Preview</a>
 						  </div>
 						</div>
 						<div class="card">
 						  <img class="card-img-top" src="images/experiences.jpg" alt="person">
 						  <div class="card-body">
 						   	<h5 class="card-title">Appendix:</h5><h5>Recovery Experiences</h5>
-						    <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						    <a href="#" class="btn btn-primary">Go somewhere</a>
+						    <p class="card-text text-muted">Hear from other who have successfully quit or are currently in the process</p>
 						  </div>
 						</div>
 					</div>
@@ -320,7 +319,8 @@
 					<hr class="feat-rule">
 					<div>
 						<ul id="previews">
-							<li id="chap1">Chapter 1: The Invisible Chains
+							<li>
+								<h5 id="chap1">Chapter 1: The Invisible Chains<span class="chevron">˅</span></h5>
 								<div id="chap1Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<cite>“Addictions ... started out like magical pets, pocket monsters. They did extraordinary tricks, showed you things you hadn't seen, were fun. But came, through some gradual dire alchemy, to make decisions for you. Eventually, they were making your most crucial life-decisions. And they were ... less intelligent than goldfish.”</cite>
 									<p class="text-right font-weight-bold">William Gibson</p>
@@ -344,7 +344,8 @@
 									<p>There must be more to life than this. There is.</p>
 								</div>
 							</li>
-							<li id="chap2">Chapter 2: Analysing Your Habit
+							<li>
+								<h5 id="chap2">Chapter 2: Analysing Your Habit<span class="chevron">˅</span></h5>
 								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
 									<p class="text-right font-weight-bold">Harry Browne</p>
@@ -364,7 +365,8 @@
 									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <strong>By choosing to use cannabis, you close the door on other opportunities.</strong></p>
 								</div>
 							</li>
-							<li id="chap3">Chapter 3: The Science of Cannabis Addiction
+							<li>
+								<h5 id="chap3">Chapter 3: The Science of Cannabis Addiction<span class="chevron">˅</span></h5>
 								<div id="chap3Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 
 									<p>This shortcut to pleasure has a major neurological consequence: <strong>dopamine deregulation.</strong> To counter the continual flood of dopamine, the brain reduces the number of dopamine receptors, so it doesn’t get overwhelmed by all the dopamine floating around. This process – called “blunting” – results in decreased motivation, impaired memory, mood swings, and a host of other problems. </p>
@@ -393,7 +395,8 @@
 									<p>Reading that list may be a real revelation. The effect cannabis has on our reward system is massive. This is the price we have paid for the years of heavy use. </p>
 								</div>
 							</li>
-							<li id="chap4">Chapter 4: The Psychology of Addiction
+							<li>
+								<h5 id="chap4">Chapter 4: The Psychology of Addiction<span class="chevron">˅</span></h5>
 								<div id="chap4Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<cite>“At first, addiction is maintained by pleasure, but the intensity of this pleasure gradually diminishes, and the addiction is then maintained by the avoidance of pain.”</cite>
 									<p class="text-right font-weight-bold">Frank Tallis</p>
@@ -415,7 +418,8 @@
 									<p>Self-regulation is the ability to handle your emotions and behaviour. Self-regulation is the ability to act in your long-term best interests, responding to your emotions in healthy, positive ways. It is the ability to accept and tolerate uncomfortable thoughts and feelings, instead of trying to avoid them.</p>
 								</div>
 							</li>
-							<li id="chap5">Chapter 5: The Quitting Process
+							<li>
+								<h5 id="chap5">Chapter 5: The Quitting Process<span class="chevron">˅</span></h5>
 								<div id="chap5Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<h6 class="text-center font-weight-bold">Why Quitting is Difficult<h6>
 
@@ -442,7 +446,8 @@
 									<p>Some claim quitting is easy and doesn’t require any willpower at all. These individuals are woefully uninformed about the nature of addiction and recovery, and are often in denial of their own addiction. Others over-emphasize willpower’s importance, insisting that if you haven’t already managed to quit, then you aren’t trying hard enough. These two views both underplay and overplay its significance.</p>
 								</div>
 							</li>
-							<li id="chap6">Chapter 6: Quitting Advice and Strategies
+							<li>
+								<h5 id="chap6">Chapter 6: Quitting Advice and Strategies<span class="chevron">˅</span></h5>
 								<div id="chap6Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<cite>“If you fail to plan, you are planning to fail.”</cite>
 									<p class="text-right font-weight-bold">Benjamin Franklin</p>
@@ -463,7 +468,8 @@
 									<p>Secondly, quitting frees up huge amounts of time. If you are sitting around bored, sooner or later, you will start thinking about smoking, and eventually, you will convince yourself to give in. Fighting boredom drains your willpower and makes quitting much more difficult. </p>
 								</div>
 							</li>
-							<li id="chap7">Chapter 7: Relapses, Obstacles and Mental Gymnastics
+							<li>
+								<h5 id="chap7">Chapter 7: Relapses, Obstacles and Mental Gymnastics<span class="chevron">˅</span></h5>
 								<div id="chap7Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 
 									<h6 class="text-center font-weight-bold">The Slippery Slope of Relapse<h6>
@@ -489,7 +495,8 @@
 
 								</div>
 							</li>
-							<li id="chap8">Chapter 8: The Quitting Mindset
+							<li>
+								<h5 id="chap8">Chapter 8: The Quitting Mindset<span class="chevron">˅</span></h5>
 								<div id="chap8Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<h6 class="text-center font-weight-bold">The Quitting Mindset<h6>
 
@@ -526,7 +533,8 @@
 
 								</div>
 							</li>
-							<li id="chap9">Chapter 9: The Motivation Chapter
+							<li>
+								<h5 id="chap9">Chapter 9: The Motivation Chapter<span class="chevron">˅</span></h5>
 								<div id="chap9Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 									<h6 class="text-center font-weight-bold">The Benefits of Sobriety<h6>
 									<p><strong>1) Energy</strong></p>
