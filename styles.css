@@ -134,6 +134,7 @@ img[src="ebookMini.png"] {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  box-shadow: 4px 3px 4px gray;
 }
 
 .review h2,
@@ -169,6 +170,7 @@ img[src="ebookMini.png"] {
   align-self: flex-end;
   padding-right: 13%;
   padding-top: 1em;
+
 }
 
 .review-cont img {
@@ -219,6 +221,16 @@ cite span:last-child {
 
 .chapters-group > .card > .card-body {
   text-align: left;
+  margin-bottom: 2.5em;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-end; */
+}
+
+.chapters-group > .card > .card-body > a {
+  position: absolute;
+  bottom: 0;
+  margin: 1.5em 0;
 }
 
 .chapters-group .card .card-img-top {
@@ -255,6 +267,31 @@ cite span:last-child {
   margin: auto;
   border-radius: 10px;
   padding: 2.5em;
+
+}
+
+.chevron {
+  display:inline-block;
+  -webkit-transform:scale(2,1); /* Safari and Chrome */
+  -moz-transform:scale(2,1); /* Firefox */
+  -ms-transform:scale(2,1); /* IE 9 */
+  -o-transform:scale(2,1); /* Opera */
+  transform:scale(2,1);
+  padding-left: 0.4em;
+
+}
+
+#chap1Preview:hover,
+#chap2Preview:hover,
+#chap3Preview:hover,
+#chap4Preview:hover,
+#chap5Preview:hover,
+#chap6Preview:hover,
+#chap7Preview:hover,
+#chap8Preview:hover,
+#chap9Preview:hover  {
+color: #6c757d!important;
+text-decoration: none!important;
 }
 
 #chap1:hover,
@@ -267,6 +304,8 @@ cite span:last-child {
 #chap8:hover,
 #chap9:hover {
   cursor: pointer;
+  color: blue;
+  text-decoration: underline;
 }
 
 .purchaseBook {
