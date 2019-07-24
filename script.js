@@ -1,4 +1,9 @@
 // Chapter Preview Event Handler
+$.fn.extend({
+    toggleText: function(a, b){
+        return this.text(this.text() == b ? a : b);
+    }
+});
 
 const chapters = $('#previews').children()
 
@@ -7,9 +12,12 @@ for (let i=1; i<chapters.length+1; i++) {
   $(`#chap${i}`).on('click', function(){
 
     $(chapterID).toggle({"display": "block"})
+    $(chapterID).prev().children().toggleText('˄', '˅')
   })
 }
 
 function previewOpen(chap) {
   $(chap).toggle({"display": "block"})
+
+
 }
