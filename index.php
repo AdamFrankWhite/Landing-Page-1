@@ -18,8 +18,8 @@
 				    <span class="navbar-toggler-icon"></span>
 				  </button>
 				  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				    <div class="navbar-nav">
-				      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				    <div class="navbar-nav anchor">
+
 				      <a class="nav-item nav-link" href="#features">Features</a>
 				      <a class="nav-item nav-link" href="#samples">Samples</a>
 							<a class="nav-item nav-link" href="#chapters">Chapters</a>
@@ -39,11 +39,16 @@
 					<h1 class="display-4">Is it time you left cannabis behind?</h1>
 
 				  <p class="lead">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
+					<p>Begin your journey towards sobriety today</p>
 				  <hr class="my-4">
 
-				  <p>Begin your journey towards sobriety today</p>
-					<a class="btn btn-primary btn-lg" href="#purchase" role="button">Buy Now</a><p>Available as a <a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
-					<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a></p>
+
+					<!-- <a class="btn btn-primary btn-lg" href="#purchase" role="button">Buy Now</a> -->
+					<p id="sticky"><strong>Available as a <a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
+					<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a></strong></p>
+
+<img src="ebookMiniMobile.jpg" alt="Quitting Weed: The Complete Guide">
+					<p>Also available on Kobo, iBooks,and Barnes and Nobles via <a href="#">Smashwords</a></p>
 
 					<a class="btn btn-secondary btn-lg" href="#features" role="button">Learn more</a>
 
@@ -317,7 +322,7 @@
 					<h2 class="pt-4 mb-0">Excerpts</h2>
 					<h6 class="text-muted">reading samples</h6>
 					<hr class="feat-rule">
-					<div>
+					<div class="pb-4">
 						<ul id="previews">
 							<li>
 								<h5 id="chap1">Chapter 1: The Invisible Chains<span class="chevron">˅</span></h5>
@@ -591,17 +596,26 @@
 							<img src="icons/stars.png">
 							<p>9 Reviews Average: 4.9/5</p>
 						</div>
+						<p>Available at Amazon</p>
 						<div class="purchaseBook">
-							<div class="ebook">
+							<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+								<div class="ebook">
+									<h6>Ebook</h6>
+									<img src="https://www.niftybuttons.com/amazon/amazon-button3.png">
+								</div>
+							</a>
 
-								<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><h6>Ebook</h6><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
-							</div>
-							<div class="paperback">
-
-								<a href="https://www.amazon.com/dp/1976799848?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><h6>Paperback</h6><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
-							</div>
+							<a href="https://www.amazon.com/dp/1976799848?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+								<div class="paperback">
+									<h6>Paperback</h6>
+									<img src="https://www.niftybuttons.com/amazon/amazon-button3.png">
+								</div>
+							</a>
 
 					</div>
+					<p>Also available for Kobo, B & N and iBooks through Smashwords</p>
+					<div class="smashwords-widget" data-type="single" data-items="book:893665" data-font="sans" data-ribboncolor="#4181c3" data-bgcolor="#fafafa" data-buttoncolor="#ffc801" data-width="300" data-height="250" data-headline="Quitting Weed: The Complete Guide" style="width: 300px; height: 250px; margin: auto;"></div>
+<script id="smashwords-widget-js" async="async" src="//www.smashwidgets.com/1/widgets.js"></script>
 				</div>
 			</div>
 			</section>
