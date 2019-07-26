@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+/* fix anchor offset */
+:target:before {
+content:"";
+display:block;
+height:70px; /* fixed header height*/
+margin:-70px 0 0; /* negative fixed header height */
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
 h2 {
   font-weight: bold;
   letter-spacing: 0.03em;
@@ -12,6 +25,18 @@ footer {
   background-color: black;
   height: 100px;
   width: 100%;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 40%!important;
+    box-shadow: 3px 3px 5px gray;
+    width: 100vw!important;
+    border-radius: 0 0!important;
+    z-index: 10;
+    background-color: white!important;
 }
 
 .text-center > h6 {
@@ -36,14 +61,21 @@ footer {
   float: right;
 }
 
+img[src="ebookMiniMobile.jpg"] {
+  display: none;
+}
+
 .navbar-nav a:hover {
   background-color: #138293;
   border-radius: 5px;
+  transition: 0.5s;
 }
+
 
 .jumbotron {
   height: 750px;
   background-image: url("forest.jpg");
+  position: relative!important;
 
 }
 
@@ -91,6 +123,7 @@ img[src="ebookMini.png"] {
   width: 90%;
   margin: 2em auto;
   display: flex;
+  flex-direction: column!important;
 }
 
 
@@ -111,6 +144,7 @@ img[src="ebookMini.png"] {
 .samples {
   background-color: lightgray;
 }
+
 
 .reviews-rule {
   width: 40%;
@@ -217,6 +251,7 @@ cite span:last-child {
   flex-wrap: wrap;
   border-radius: 5px;
   overflow: hidden;
+
 }
 
 .chapters-group > .card > .card-body {
@@ -242,6 +277,8 @@ cite span:last-child {
   margin-top: 2em;
   overflow: hidden;
 }
+
+
 
 #previews {
   list-style: none;
@@ -309,20 +346,25 @@ text-decoration: none!important;
 }
 
 .purchaseBook {
-  width: 600px;
+  width: 425px;
   margin: auto;
   display: flex;
+  justify-content: space-around;
+
 }
 
 .stars {
   width: 400px;
-  margin: auto;
+  margin: 1em auto;
   border: 3px black solid;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px black;
 }
 
 img[src="icons/stars.png"] {
   width: 125px;
   height: auto;
+  margin-top: 0.75em;
 }
 
 .paperback,
@@ -330,13 +372,143 @@ img[src="icons/stars.png"] {
   border: 2px black solid;
   border-radius: 10px;
   padding: 1em;
-  margin-left: 2em;
   margin-bottom: 2em;
+  box-shadow: 2px 2px 4px black;
 }
 
-@media (min-width: 576px) {
+.paperback:hover,
+.ebook:hover {
+  background: lightgray;
+  transition: 0.6s;
+}
+
+
+@media (max-width: 765px) {
+  #mainMenu {
+    width: 90%!important;
+  }
+
+  #mainMenu > .navbar-brand {
+    float: left;
+
+  }
+
+  #mainMenu > .navbar-toggler {
+    float: right;
+  }
+
+  img[src="ebookMini.png"] {
+    display: none;
+  }
+
+  img[src="ebookMiniMobile.jpg"] {
+    display: block;
+    width: 100%;
+  }
+
+  .jumbotron * {
+    font-size: 1em!important;
+  }
+
+  .jumbotron {
+    height: auto;
+  }
+  .jumbotron h1 {
+    margin-top: 1em;
+  }
+  .jumbotron h1,
+  .jumbotron p {
+    /* background-color: rgba(255,255,255,0.5); */
+    padding: 0.5em;
+    border-radius: 10px;
+    width: 100%!important;
+    display: block;
+  }
+  .jumbotron h1 {
+    width: 95%;
+    display: block;
+  }
+
+  .jumbo-content {
+    width: 100%;
+    margin: auto;
+    display: block!important;
+  }
+
+  .fixed-header {
+
+      padding-left: 8%!important;
+
+  }
+
+  .review {
+    width: 100%;
+  }
+
+  .quote {
+    margin: 3%;
+  }
+  .quote > img {
+    width: 5%;
+  }
+
+  .chapters-group {
+    margin: auto;
+    width: 75%;
+  }
+
+  .chapters-group > .card {
+    flex-basis: 100%;
+  }
+
+  #previews {
+    width: 95%;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  #previews h5 {
+    font-size: 1.1em;
+  }
+  #chap1Preview,
+  #chap2Preview,
+  #chap3Preview,
+  #chap4Preview,
+  #chap5Preview,
+  #chap6Preview,
+  #chap7Preview,
+  #chap8Preview,
+  #chap9Preview {
+    width: 95%;
+    padding: 1em 0;
+  }
+  img[src="booksAll.png"] {
+    width: 90%;
+  }
+}
+@media (min-width: 500px) and (max-width: 799px) {
   .card-group {
-    width: 85%;
+    width: 410px;
+    margin: auto;
+  }
+  .card-group > .card {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .card-group > .card > .card-body {
+    padding-top: 0;
+  }
+
+  .card > img {
+    align-self: center;
+  }
+}
+@media (min-width: 800px) {
+  .card-group {
+    width: 88%;
+    margin: auto;
+    flex-direction: row!important;
   }
   .card-group > .card {
     flex-basis: 50%; /*override bootstrap flex mq for above 576px */
@@ -344,7 +516,14 @@ img[src="icons/stars.png"] {
 }
 
 
-@media (min-width: 920px) {
+
+@media (min-width: 1024px) {
+  .card-group {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1500px) {
   .card-group {
     width: 45%;
   }
