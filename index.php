@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Merriweather" rel="stylesheet">
 		<link rel="shortcut icon" type="image/x-icon" href="icons/favicon.ico" />
 		<link rel="stylesheet" href="styles.css">
@@ -31,26 +32,45 @@
 
 		</header>
 		<main>
-
+			<!-- floating share -->
+			<div >
+				<ul id="share">
+				  <a href="http://www.facebook.com/sharer.php?u=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+				  <a href="https://twitter.com/share?url=https://www.quittingweedthebook.com&amp;text=Quitting%20Weed%20The%20Complete%20Guide;hashtags=cannabis-addiction" target="_blank"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+				  <a href="https://plus.google.com/share?url=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-google-plus" aria-hidden="true"></i></li></a>
+				  <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+				  <a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+				</ul>
+			</div>
 
 			<div class="jumbotron">
 			  <div class="jumbo-content">
 					<img src="ebookMini.png" alt="Quitting Weed: The Complete Guide">
 					<h1 class="display-4">Is it time you left cannabis behind?</h1>
 
-				  <p class="lead">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
-					<p>Begin your journey towards sobriety today</p>
+				  <p class="lead mt-3">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
+					<p class="tagline">Begin your journey towards sobriety today with Matthew Clarke's comprehensive guide to achieving a cannabis-free life.</p>
 				  <hr class="my-4">
 
 
 					<!-- <a class="btn btn-primary btn-lg" href="#purchase" role="button">Buy Now</a> -->
-					<p id="sticky"><strong>Available as a <a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
-					<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none"><img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a></strong></p>
 
-<img src="ebookMiniMobile.jpg" alt="Quitting Weed: The Complete Guide">
+					<!-- hidden mobile image -->
+					<img src="ebookMiniMobile.jpg" alt="Quitting Weed: The Complete Guide">
+					<div id="sticky" class="sticky">
+						<strong>Available as a
+							<a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
+							<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+							<img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
+						</strong>
+						<a href="#footer" class="share-link">Share</a>
+
+					</div>
+
+
 					<p>Also available on Kobo, iBooks,and Barnes and Nobles via <a href="#">Smashwords</a></p>
 
-					<a class="btn btn-secondary btn-lg" href="#features" role="button">Learn more</a>
+					<a class="btn btn-secondary btn-lg learn-more" href="#features" role="button">Learn more</a>
 
 				</div>
 			</div>
@@ -310,7 +330,7 @@
 						  <img class="card-img-top" src="images/experiences.jpg" alt="person">
 						  <div class="card-body">
 						   	<h5 class="card-title">Appendix:</h5><h5>Recovery Experiences</h5>
-						    <p class="card-text text-muted">Hear from other who have successfully quit or are currently in the process</p>
+						    <p class="card-text text-muted">Hear from others who have successfully quit or are currently in the process</p>
 						  </div>
 						</div>
 					</div>
@@ -614,13 +634,22 @@
 
 					</div>
 					<p>Also available for Kobo, B & N and iBooks through Smashwords</p>
-					<div class="smashwords-widget" data-type="single" data-items="book:893665" data-font="sans" data-ribboncolor="#4181c3" data-bgcolor="#fafafa" data-buttoncolor="#ffc801" data-width="300" data-height="250" data-headline="Quitting Weed: The Complete Guide" style="width: 300px; height: 250px; margin: auto;"></div>
+					<div class="smashwords-widget" data-type="single" data-items="book:893665" data-font="sans" data-ribboncolor="#4181c3" data-bgcolor="#fafafa" data-buttoncolor="#ffc801" data-width="300" data-height="250" data-headline="Quitting Weed: The Complete Guide"></div>
 <script id="smashwords-widget-js" async="async" src="//www.smashwidgets.com/1/widgets.js"></script>
 				</div>
 			</div>
 			</section>
 		</main>
-		<footer>
+		<footer id="footer">
+			<ul class="social-media">
+				<a href="http://www.facebook.com/sharer.php?u=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
+				<a href="https://twitter.com/share?url=https://www.quittingweedthebook.com&amp;text=Quitting%20Weed%20The%20Complete%20Guide;hashtags=cannabis-addiction" target="_blank"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
+				<a href="https://plus.google.com/share?url=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-google-plus" aria-hidden="true"></i></li></a>
+				<a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-linkedin" aria-hidden="true"></i></li></a>
+				<a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
+			</ul>
+			<p class="pt-3">&copy; 2019 Matthew Clarke</p>
+			<p>Website by AW Web Design</p>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>

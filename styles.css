@@ -21,17 +21,76 @@ h2 {
   font-family: "Roboto Slab";
 }
 
+hr {
+  border: none;
+  height: 2px;
+  width: 30%;
+}
+
+#share {
+  width: 75px;
+  position: fixed;
+  right: 0;
+  top: 25%;
+  display: none;
+  z-index: 1000;
+}
+
+.sidebar {
+  display: inline;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #273746;
+  border-radius: 10px 0 0 10px;
+  margin: auto;
+  padding-left: 0!important;
+  text-align: center;
+}
+
+.sidebar li {
+  font-size: 1.5em;
+  padding: 0.5em;
+
+}
+
 footer {
-  background-color: black;
-  height: 100px;
+  background-color: #273746;
+  color: lightgray;
+  font-weight: 400;
+  padding-bottom: 2em;
   width: 100%;
+  font-family: Raleway;
+  text-align: center;
+}
+
+/* SOCIAL MEDIA */
+
+.social-media {
+  list-style: none;
+  display: flex;
+  padding: 1em 0 0 0;
+  margin: auto;
+  justify-content: center;
+
+}
+
+.social-media li {
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.share-link {
+  display: none;
 }
 
 .fixed-header {
     position: fixed;
     top: 0;
     left: 0;
-    padding-left: 40%!important;
+    padding: 1em;
+    text-align: center;
+    /* padding-left: 40%!important; */
     box-shadow: 3px 3px 5px gray;
     width: 100vw!important;
     border-radius: 0 0!important;
@@ -61,8 +120,25 @@ footer {
   float: right;
 }
 
+.sticky {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5em;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1em auto;
+}
+
+.my-4 {
+  height: 2px;
+  background-color: white;
+  width: 80%;
+}
+
 img[src="ebookMiniMobile.jpg"] {
   display: none;
+  height: 400px;
+  width: auto!important;
+  margin: auto;
 }
 
 .navbar-nav a:hover {
@@ -86,9 +162,9 @@ img[src="ebookMiniMobile.jpg"] {
   border-radius: 10px;
   width: 65%;
 }
-.jumbotron h1 {
+/* .jumbotron h1 {
   width: 65%;
-}
+} */
 
 .jumbo-content {
   width: 75%;
@@ -98,6 +174,10 @@ img[src="ebookMiniMobile.jpg"] {
 img[src="ebookMini.png"] {
   float: right;
   border-radius: 30px;
+}
+
+.learn-more {
+  display: none;
 }
 
 .features,
@@ -115,8 +195,8 @@ img[src="ebookMini.png"] {
 }
 
 .feat-rule {
-  width: 40%;
   margin: auto;
+  background-color: darkgray;
 }
 
 .card-group {
@@ -147,10 +227,10 @@ img[src="ebookMini.png"] {
 
 
 .reviews-rule {
-  width: 40%;
   margin: auto;
   margin-bottom: 2em;
-  background-color: white;
+  background-color: darkgray;
+
 }
 
 
@@ -247,19 +327,16 @@ cite span:last-child {
 }
 
 .chapters-group > .card {
-  flex-basis: 32%;
   flex-wrap: wrap;
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 2em;
 
 }
 
 .chapters-group > .card > .card-body {
   text-align: left;
   margin-bottom: 2.5em;
-  /* display: flex;
-  flex-direction: column;
-  align-items: flex-end; */
 }
 
 .chapters-group > .card > .card-body > a {
@@ -268,14 +345,19 @@ cite span:last-child {
   margin: 1.5em 0;
 }
 
-.chapters-group .card .card-img-top {
-  height: 245px;
-}
+
 
 .booksAll {
   border-radius: 10px;
   margin-top: 2em;
   overflow: hidden;
+}
+
+.img-cont {
+  background-image: url(images/fog.jpg);
+  background-position: center center;
+  opacity: 0.5;
+  padding: 100px;
 }
 
 
@@ -345,8 +427,9 @@ text-decoration: none!important;
   text-decoration: underline;
 }
 
+
 .purchaseBook {
-  width: 425px;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -354,7 +437,7 @@ text-decoration: none!important;
 }
 
 .stars {
-  width: 400px;
+  width: 90%;
   margin: 1em auto;
   border: 3px black solid;
   border-radius: 10px;
@@ -382,10 +465,15 @@ img[src="icons/stars.png"] {
   transition: 0.6s;
 }
 
+.smashwords-widget {
+  margin: 2em auto;
+  width: 300px;
+  height: 250px;
+}
 
-@media (max-width: 765px) {
+@media (max-width: 723px) {
   #mainMenu {
-    width: 90%!important;
+    width: 95%!important;
   }
 
   #mainMenu > .navbar-brand {
@@ -404,6 +492,7 @@ img[src="icons/stars.png"] {
   img[src="ebookMiniMobile.jpg"] {
     display: block;
     width: 100%;
+    border-radius: 5px;
   }
 
   .jumbotron * {
@@ -412,10 +501,9 @@ img[src="icons/stars.png"] {
 
   .jumbotron {
     height: auto;
+    padding-top: 0.5em;
   }
-  .jumbotron h1 {
-    margin-top: 1em;
-  }
+
   .jumbotron h1,
   .jumbotron p {
     /* background-color: rgba(255,255,255,0.5); */
@@ -427,17 +515,22 @@ img[src="icons/stars.png"] {
   .jumbotron h1 {
     width: 95%;
     display: block;
+    margin-top: 1em;
+    font-size: 2em!important;
+    font-weight: 400;
   }
 
   .jumbo-content {
     width: 100%;
     margin: auto;
     display: block!important;
+
   }
 
   .fixed-header {
 
       padding-left: 8%!important;
+
 
   }
 
@@ -462,7 +555,7 @@ img[src="icons/stars.png"] {
   }
 
   #previews {
-    width: 95%;
+    width: 98%;
     padding-left: 1em;
     padding-right: 1em;
   }
@@ -484,8 +577,77 @@ img[src="icons/stars.png"] {
   img[src="booksAll.png"] {
     width: 90%;
   }
+
+  .smashwords-widget {
+    width: 90%;
+  }
+
+  #share {
+    display: none!important;
+  }
+
+  .share-link {
+    display: block;
+    text-align: center;
+    font-size: 0.8em;
+  }
 }
-@media (min-width: 500px) and (max-width: 799px) {
+
+@media (max-width: 499px) {
+  .card-group {
+    width: 90%;
+    margin: auto;
+  }
+
+  .card-group > .card {
+    flex-direction: column;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    align-items: center;
+  }
+
+  .card-group > .card > .card-body {
+    padding-top: 0;
+  }
+
+
+  .review {
+    font-size: 0.9em;
+  }
+
+  .chapters-group {
+    font-size: 0.9em;
+    width: 95%;
+    margin-top: 2em;
+  }
+
+  .navbar-brand {
+    font-size: 0.9em;
+  }
+
+  .fixed-header {
+    text-align: center;
+    padding: 1em;
+    font-size: 0.8em!important;
+  }
+
+  .fixed-header img {
+    padding-top: 5px;
+    height: 45px;
+    width: auto;
+  }
+
+  .sans-smashwords {
+    margin: auto;
+  }
+
+  footer {
+    font-size: 0.8em;
+  }
+
+}
+
+@media (min-width: 500px) and (max-width: 724px) {
   .card-group {
     width: 410px;
     margin: auto;
@@ -503,8 +665,47 @@ img[src="icons/stars.png"] {
   .card > img {
     align-self: center;
   }
+
+  .purchaseBook {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+  }
+
+  .stars {
+    width: 90%;
+    margin: 1em auto;
+    border: 3px black solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+  }
 }
-@media (min-width: 800px) {
+@media (min-width: 725px) {
+
+  img[src="ebookMini.png"] {
+    height: 385px;
+    width: auto;
+  }
+
+
+  .jumbo-content {
+    width: 95%;
+  }
+
+  .jumbotron h1 {
+    width: 57%;
+  }
+  .jumbotron p {
+
+    width: 57%;
+  }
+
+  .tagline {
+    width: 100%!important;
+    margin-top: 1em!important;
+  }
   .card-group {
     width: 88%;
     margin: auto;
@@ -512,7 +713,38 @@ img[src="icons/stars.png"] {
   }
   .card-group > .card {
     flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+    padding-left: 0;
   }
+
+  .card-group > .card .card-body {
+    padding-left: 0;
+  }
+
+  .features .card-group .card-subtitle {
+    padding-left: 0;
+    font-size: 0.9em!important;
+  }
+  .chapters-group .card .card-img-top {
+    height: 245px;
+  }
+
+  .chapters-group {
+    width: 90%;
+  }
+
+  .chapters-group > .card {
+    flex-basis: 48%;
+  }
+
+
+  .purchaseBook {
+    width: 425px;
+  }
+
+  .stars {
+    width: 400px;
+  }
+
 }
 
 
@@ -521,7 +753,20 @@ img[src="icons/stars.png"] {
   .card-group {
     width: 70%;
   }
+
+  .chapters-group {
+    width: 80%;
+  }
+
+  .learn-more {
+    display: inline-block;
+  }
 }
+
+@media (min-width: 1200px) {
+  .chapters-group {
+    width: 70%;
+  }
 
 @media (min-width: 1500px) {
   .card-group {
@@ -529,5 +774,11 @@ img[src="icons/stars.png"] {
   }
   .card-group > .card {
     flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+
   }
+
+  .chapters-group > .card {
+    flex-basis: 32%;
+}
+
 }
