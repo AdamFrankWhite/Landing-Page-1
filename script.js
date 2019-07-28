@@ -33,7 +33,7 @@ function chevronChange() {
 
 $(document).ready(function() {
     // Get the current top location of the nav bar.
-    var stickyTop = $('#sticky').offset().top;
+    var stickyTop = $('#stickyCTA').offset().top;
 
     // Set the header's height to its current height in CSS
     // If we don't do this, the content will jump suddenly when passing through stickyNavTop.
@@ -41,13 +41,17 @@ $(document).ready(function() {
 
     $(window).scroll(function(){
         if ($(window).scrollTop() >= stickyTop+300) {
-            $('#sticky').addClass('fixed-header');
-            $('#sticky').removeClass('sticky');
+            $('#stickyCTA').addClass('fixed-header');
+            $('#stickyCTA').removeClass('sticky-format');
             $('#share').css({"display": "inline"}).addClass('sidebar')
+            $('.share-link').css({"display": "block"})
 
         } else {
-            $('#sticky').removeClass('fixed-header');
-  
+            $('#stickyCTA').removeClass('fixed-header');
+            $('#stickyCTA').addClass('sticky-format');
+            $('.share-link').css({"display": "none"})
+
+
         }
     });
 });
