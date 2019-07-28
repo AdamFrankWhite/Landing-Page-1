@@ -49,7 +49,7 @@
 					<h1 class="display-4">Is it time you left cannabis behind?</h1>
 
 				  <p class="lead mt-3">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
-					<p class="tagline">Begin your journey towards sobriety today with Matthew Clarke's comprehensive guide to achieving a cannabis-free life.</p>
+					<p class="tagline">Believe me, I know. I spent over 10 years getting high and ignoring my problems. It finally dawned on me that cannabis was not the friend I thought it was; rather, it had become my greatest enemy - the obstacle preventing me from getting on and living my life. After a long struggle, I finally managed to quit and I wanted to share what I had learnt, to help others who are struggling. Begin your journey towards sobriety today with my comprehensive guide to achieving a cannabis-free life.</p>
 				  <hr class="my-4">
 
 
@@ -57,20 +57,18 @@
 
 					<!-- hidden mobile image -->
 					<img src="ebookMiniMobile.jpg" alt="Quitting Weed: The Complete Guide">
-					<div id="sticky" class="sticky">
+					<div id="stickyCTA" class="sticky-format">
 						<strong>Available as a
-							<a href="https://www.amazon.com/dp/1976799848" target="_blank" >paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
+							<a href="https://www.amazon.com/dp/1976799848" target="_blank">paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
 							<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
 							<img src="https://www.niftybuttons.com/amazon/amazon-button3.png"></a>
 						</strong>
-						<a href="#footer" class="share-link">Share</a>
+						<a href="#end" class="share-link">Share</a>
 
 					</div>
 
 
 					<p>Also available on Kobo, iBooks,and Barnes and Nobles via <a href="#">Smashwords</a></p>
-
-					<a class="btn btn-secondary btn-lg learn-more" href="#features" role="button">Learn more</a>
 
 				</div>
 			</div>
@@ -610,7 +608,7 @@
 					<hr class="feat-rule">
 					<div>
 						<div class="text-center">
-							<img src="booksAll.png" class="booksAll">
+							<img src="booksAll.png">
 						</div>
 						<div class="stars">
 							<img src="icons/stars.png">
@@ -640,7 +638,7 @@
 			</div>
 			</section>
 		</main>
-		<footer id="footer">
+		<footer>
 			<ul class="social-media">
 				<a href="http://www.facebook.com/sharer.php?u=https://www.quittingweedthebook.com" target="_blank"><li><i class="fa fa-facebook" aria-hidden="true"></i></li></a>
 				<a href="https://twitter.com/share?url=https://www.quittingweedthebook.com&amp;text=Quitting%20Weed%20The%20Complete%20Guide;hashtags=cannabis-addiction" target="_blank"><li><i class="fa fa-twitter" aria-hidden="true"></i></li></a>
@@ -649,7 +647,7 @@
 				<a href="javascript:void((function()%7Bvar%20e=document.createElement('script');e.setAttribute('type','text/javascript');e.setAttribute('charset','UTF-8');e.setAttribute('src','http://assets.pinterest.com/js/pinmarklet.js?r='+Math.random()*99999999);document.body.appendChild(e)%7D)());"><li><i class="fa fa-instagram" aria-hidden="true"></i></li></a>
 			</ul>
 			<p class="pt-3">&copy; 2019 Matthew Clarke</p>
-			<p>Website by AW Web Design</p>
+			<p id="end">Website by AW Web Design</p>
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
