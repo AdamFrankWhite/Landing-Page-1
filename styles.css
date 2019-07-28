@@ -74,7 +74,10 @@ footer {
 
 }
 
-
+.social-media li {
+  font-size: 1.5em;
+  padding: 0.3em;
+}
 
 .share-link {
   display: none;
@@ -627,7 +630,7 @@ img[src="icons/stars.png"] {
 
   .fixed-header {
     text-align: center;
-
+    padding: 0.3em;
     font-size: 0.8em!important;
   }
 
@@ -752,7 +755,7 @@ img[src="icons/stars.png"] {
   }
 
   img[src="booksAll.png"] {
-    width: 80%;
+    width: 60%;
   }
 
   .stars {
@@ -851,6 +854,10 @@ img[src="icons/stars.png"] {
     width: auto;
   }
 
+  img[src="booksAll.png"] {
+    width: 50%;
+  }
+
   .chapters-group {
     width: 70%;
   }
@@ -899,6 +906,9 @@ img[src="icons/stars.png"] {
     padding: 0.5em;
   }
 
+  img[src="booksAll.png"] {
+    width: 45%;
+  }
 
 }
 
