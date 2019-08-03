@@ -13,7 +13,7 @@ h2 {
 }
 
 hr {
-  border: none;
+  /* border: none; */
   height: 2px;
   width: 30%;
 }
@@ -234,7 +234,20 @@ img[src="ebookMini.png"] {
 .samples {
   background-color: lightgray;
 }
+small {
+   margin: 0.5em auto;
+   width: 75%;
+   display: block;
+   text-align: center;
+   color: black;
+   font-family: Raleway;
+   padding: 1em;
+   border-top: dotted 1px gray;
+ }
 
+.samples cite {
+  display: block;
+}
 
 .reviews-rule {
   margin: auto;
@@ -243,11 +256,6 @@ img[src="ebookMini.png"] {
 
 }
 
-
-.carousel-item > p {
-  width: 70%;
-  margin: auto;
-}
 
 .review {
   background-color: white;
@@ -776,6 +784,14 @@ img[src="icons/stars.png"] {
     width: 60%;
   }
 
+  img[src="icons/maps-lines.svg"] {
+    padding-right: 10px;
+  }
+
+  .features .card > img[src="icons/motivation.png"] {
+    padding: 7px 0;
+  }
+
   .stars {
     width: 400px;
   }
@@ -820,7 +836,7 @@ img[src="icons/stars.png"] {
 
 @media (min-width: 980px) {
   .card-group {
-    width: 60%;
+    width: 80%;
     max-width: 800px;
   }
 
@@ -835,7 +851,7 @@ img[src="icons/stars.png"] {
   #previews {
     width: 50%;
     max-width: 800px;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
   }
 
   .jumbo-content > h1 {
@@ -904,7 +920,8 @@ img[src="icons/stars.png"] {
     width: 65%;
   }
   .card-group {
-    width: 45%;
+    width: 70%;
+    max-width: 1000px;
   }
   .card-group > .card {
     flex-basis: 50%; /*override bootstrap flex mq for above 576px */

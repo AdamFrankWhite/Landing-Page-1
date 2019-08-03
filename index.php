@@ -83,7 +83,7 @@
 						<div class="card">
 							<img src="icons/book.svg" alt="book">
 	  					<div class="card-body">
-						    <h5 class="card-title">The Science of Addiction</h5>
+						    <h5 class="card-title">Science of Addiction</h5>
 						    <h6 class="card-subtitle mb-2 text-muted">Understand the science and psychology that drives your addiction</h6>
 
 						  </div>
@@ -99,7 +99,7 @@
 						<div class="card">
 							<img src="icons/column-chart.svg" alt="chart">
 	  					<div class="card-body">
-						    <h5 class="card-title">Analyse</h5>
+						    <h5 class="card-title">Perspective</h5>
 						    <h6 class="card-subtitle mb-2 text-muted">Learn to view your habit and the drug in a different light, through reflecting on your use</h6>
 						  </div>
 						</div>
@@ -113,8 +113,15 @@
 						<div class="card">
 							<img src="icons/leaf.svg" alt="leaf">
 	  					<div class="card-body">
-						    <h5 class="card-title">Be Aware</h5>
+						    <h5 class="card-title">Awareness</h5>
 						    <h6 class="card-subtitle mb-2 text-muted">Know what to expect during the quitting process – relapses, self-doubt, emotional ups and downs</h6>
+						  </div>
+						</div>
+						<div class="card">
+							<img src="icons/maps-lines.svg" alt="roadmap">
+	  					<div class="card-body">
+						    <h5 class="card-title">Preparation</h5>
+						    <h6 class="card-subtitle mb-2 text-muted">Learn strategies and tips for maximising your chances of success</h6>
 						  </div>
 						</div>
 						<div class="card">
@@ -125,19 +132,13 @@
 						  </div>
 						</div>
 						<div class="card">
-							<img src="icons/book.svg" alt="book">
+							<img src="icons/motivation.png" alt="motivation" style="width: 64px; height: auto;">
 	  					<div class="card-body">
 						    <h5 class="card-title">Motivation</h5>
 						    <h6 class="card-subtitle mb-2 text-muted">Have a selection of cannabis-specific motivational quotes and reflections to consult when struggling</h6>
 						  </div>
 						</div>
-						<div class="card">
-							<img src="icons/puzzle.svg" alt="puzzle piece">
-	  					<div class="card-body">
-						    <h5 class="card-title">Prepare</h5>
-						    <h6 class="card-subtitle mb-2 text-muted">Learn strategies and tips for maximising your chances of success</h6>
-						  </div>
-						</div>
+
 					</div>
 				</div>
 			</section>
@@ -346,6 +347,7 @@
 							<li>
 								<h5 id="chap1">Chapter 1: The Invisible Chains<span class="chevron">˅</span></h5>
 								<div id="chap1Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<h6 class="text-center font-weight-bold h3 pb-2"><u>Chapter 1: The Invisible Chains</u><h6>
 									<cite>“Addictions ... started out like magical pets, pocket monsters. They did extraordinary tricks, showed you things you hadn't seen, were fun. But came, through some gradual dire alchemy, to make decisions for you. Eventually, they were making your most crucial life-decisions. And they were ... less intelligent than goldfish.”</cite>
 									<p class="text-right font-weight-bold">William Gibson</p>
 
@@ -366,11 +368,14 @@
 									<p>You reach for your stash box once again. The cycle continues.</p>
 
 									<p>There must be more to life than this. There is.</p>
+
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap2">Chapter 2: Analysing Your Habit<span class="chevron">˅</span></h5>
 								<div id="chap2Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<h6 class="text-center font-weight-bold h3 pb-2"><u>Chapter 2: Analysing Your Habit</u><h6>
 									<cite>“Everything you want in life has a price connected to it. There’s a price to pay if you want to make things better, a price to pay just for leaving things as they are, a price for everything.”</cite>
 									<p class="text-right font-weight-bold">Harry Browne</p>
 
@@ -387,13 +392,14 @@
 									<p>An opportunity cost refers to the opportunities we lose when we choose one particular option.</p>
 
 									<p>When we have the choice between two or more things, where we can only choose one, picking one results in losing the ability to choose the other. This is an incredibly powerful concept. <strong>By choosing to use cannabis, you close the door on other opportunities.</strong></p>
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap3">Chapter 3: The Science of Cannabis Addiction<span class="chevron">˅</span></h5>
 								<div id="chap3Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
 
-									<p>This shortcut to pleasure has a major neurological consequence: <strong>dopamine deregulation.</strong> To counter the continual flood of dopamine, the brain reduces the number of dopamine receptors, so it doesn’t get overwhelmed by all the dopamine floating around. This process – called “blunting” – results in decreased motivation, impaired memory, mood swings, and a host of other problems. </p>
+									<p>......this shortcut to pleasure has a major neurological consequence: <strong>dopamine deregulation.</strong> To counter the continual flood of dopamine, the brain reduces the number of dopamine receptors, so it doesn’t get overwhelmed by all the dopamine floating around. This process – called “blunting” – results in decreased motivation, impaired memory, mood swings, and a host of other problems. </p>
 
 									<p>These effects were brilliantly illustrated by a study conducted by Nora D. Volkow. In the experiment, cannabis users were given methylphenidate (aka Ritalin) alongside non-users. The stimulant provided a huge increase in dopamine. Interestingly, both groups received the dopamine boost; however, whereas the non-users reported an increased heart rate, felt restless, and stimulated, the heavy cannabis users barely experienced any effects of the Ritalin – evidence of a blunted reward system. Volkow was so surprised by this that she double-checked the drug hadn’t passed its expiry date.</p>
 
@@ -416,12 +422,14 @@
 										<li>Craving for sugar/saturated fats</li>
 									</ul>
 
-									<p>Reading that list may be a real revelation. The effect cannabis has on our reward system is massive. This is the price we have paid for the years of heavy use. </p>
+									<p class="pt-3">Reading that list may be a real revelation. The effect cannabis has on our reward system is massive. This is the price we have paid for the years of heavy use. </p>
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap4">Chapter 4: The Psychology of Addiction<span class="chevron">˅</span></h5>
 								<div id="chap4Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+									<h6 class="text-center font-weight-bold h3 pb-2"><u>Chapter 4: The Psychology of Addiction</u><h6>
 									<cite>“At first, addiction is maintained by pleasure, but the intensity of this pleasure gradually diminishes, and the addiction is then maintained by the avoidance of pain.”</cite>
 									<p class="text-right font-weight-bold">Frank Tallis</p>
 
@@ -440,11 +448,13 @@
 									<p>Cannabis addiction is a symptom, often part of a broader pattern of self-neglect. The broad, underlying factor behind addiction is <strong>the inability to deal with negative emotions.</strong></p>
 
 									<p>Self-regulation is the ability to handle your emotions and behaviour. Self-regulation is the ability to act in your long-term best interests, responding to your emotions in healthy, positive ways. It is the ability to accept and tolerate uncomfortable thoughts and feelings, instead of trying to avoid them.</p>
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap5">Chapter 5: The Quitting Process<span class="chevron">˅</span></h5>
 								<div id="chap5Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+
 									<h6 class="text-center font-weight-bold">Why Quitting is Difficult<h6>
 
 									<p>To state the obvious, if quitting were easy, we would have done it already.</p>
@@ -468,12 +478,14 @@
 									<p>Contrary to the empty promises of some self-help books, quitting does require some willpower.</p>
 
 									<p>Some claim quitting is easy and doesn’t require any willpower at all. These individuals are woefully uninformed about the nature of addiction and recovery, and are often in denial of their own addiction. Others over-emphasize willpower’s importance, insisting that if you haven’t already managed to quit, then you aren’t trying hard enough. These two views both underplay and overplay its significance.</p>
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap6">Chapter 6: Quitting Advice and Strategies<span class="chevron">˅</span></h5>
 								<div id="chap6Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-									<cite>“If you fail to plan, you are planning to fail.”</cite>
+									<h6 class="text-center font-weight-bold h3 pb-2"><u>Chapter 6: Quitting Advice and Strategies</u><h6>
+									<cite class="text-center">“If you fail to plan, you are planning to fail.”</cite>
 									<p class="text-right font-weight-bold">Benjamin Franklin</p>
 
 									<p>Quitting successfully requires a plan. Without a plan, you are unnecessarily prolonging your pain, as well as jeopardizing the entire quitting process. Successfully quitting requires both anticipating the pitfalls and obstacles along the way (which is what we have covered so far) and having a solid quitting plan.</p>
@@ -490,12 +502,12 @@
 									<p>Firstly, weed addiction is a symptom of a deeper dissatisfaction with life. Quitting removes the numbing effect of weed on your life, exposing you to reality – the reality you have been avoiding. This is why it is so important to build a mentally and physically healthier life by embracing new habits. <strong>If you do nothing to change the circumstances that drive you towards weed use, relapse is almost certain.</strong></p>
 
 									<p>Secondly, quitting frees up huge amounts of time. If you are sitting around bored, sooner or later, you will start thinking about smoking, and eventually, you will convince yourself to give in. Fighting boredom drains your willpower and makes quitting much more difficult. </p>
+									<small>end of preview</small>
 								</div>
 							</li>
 							<li>
 								<h5 id="chap7">Chapter 7: Relapses, Obstacles and Mental Gymnastics<span class="chevron">˅</span></h5>
 								<div id="chap7Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
-
 									<h6 class="text-center font-weight-bold">The Slippery Slope of Relapse<h6>
 									<p>When quitting, if you give in and smoke, you have “relapsed.”</p>
 
@@ -516,12 +528,14 @@
 									<p>Each relapse reveals your relationship with weed more clearly. The cycle starts to become familiar: the craving and giving in; the lacklustre high; the depression, paranoia, and anxiety; the panic when you begin to near the end of your supply; the shame and self-loathing once it’s all over. </p>
 
 									<p>Relapses must be treated seriously, but you must also keep things in perspective. Although it is natural to feel guilty and ashamed, this can easily keep you trapped in a cycle of relapsing. The delicate balance is in not being too hard on yourself, but not too easy either. Remind yourself that relapsing is a result of the primitive part of your brain craving the drug, even though the rational part of your brain has decided you need to quit. </p>
+									<small>end of preview</small>
 
 								</div>
 							</li>
 							<li>
 								<h5 id="chap8">Chapter 8: The Quitting Mindset<span class="chevron">˅</span></h5>
 								<div id="chap8Preview" class="text-muted text-justify mt-2 mb-2 merriweather">
+
 									<h6 class="text-center font-weight-bold">The Quitting Mindset<h6>
 
 									<p>Quitting cannabis will be much easier if we practice looking at things from a constructive mindset. If you are serious about quitting, embrace the following attitudes:</p>
@@ -553,6 +567,7 @@
 									<p>The choice is simple: either you continue to use weed, and continue a life of quiet desperation, inner emptiness, shame, and worry, never finding out your potential; or, you break free from the green prison and transform your life into something unrecognisable from your current situation – one where you are motivated, alive, and in touch with your emotions.</p>
 
 									<p>If you fail to accept your situation, relapse is certain, and you risk losing another year or more of your life. </p>
+									<small>end of preview</small>
 
 
 								</div>
@@ -594,7 +609,8 @@
 										<li>Do you want to buy your own home?</li>
 									</ul>
 
-									<p>Whatever your aspirations are, now is the time to quit weed, regain your sense of urgency and motivation, follow through, and achieve your goals. </p>
+									<p class="pt-3">Whatever your aspirations are, now is the time to quit weed, regain your sense of urgency and motivation, follow through, and achieve your goals. </p>
+									<small>end of preview</small>
 
 								</div>
 							</li>
