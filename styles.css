@@ -122,6 +122,9 @@ footer {
   margin: 1em auto;
 }
 
+#stickyCTA a:hover {
+  color: orange!important;
+}
 .my-4 {
   height: 2px;
   background-color: white;
