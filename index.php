@@ -60,8 +60,8 @@
 					<a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank"><img src="images/ebookMiniMobile.png" alt="Quitting Weed: The Complete Guide"></a>
 					<div id="stickyCTA" class="sticky-format">
 						<strong>Available as a
-							<a href="https://www.amazon.com/dp/1976799848" target="_blank">paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
-							<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+							<a href="http://getbook.at/quittingweed" target="_blank">paperback</a> and <a href="http://getbook.at/quittingweedebook" target="_blank">ebook</a>
+							<a href="http://getbook.at/quittingweedebook?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
 							<img src="https://www.niftybuttons.com/amazon/amazon-button3.png" style="padding-left: 0.3em; padding-right: 0.3em;"></a>
 						</strong>
 						<a href="#end" class="share-link">Share</a>
@@ -633,14 +633,14 @@
 						</div>
 						<p>Available at Amazon</p>
 						<div class="purchaseBook">
-							<a href="https://www.amazon.com/dp/B078SDVZFG?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+							<a href="http://getbook.at/quittingweedebook?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
 								<div class="ebook">
 									<h6>Ebook</h6>
 									<img src="https://www.niftybuttons.com/amazon/amazon-button3.png">
 								</div>
 							</a>
 
-							<a href="https://www.amazon.com/dp/1976799848?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
+							<a href="http://getbook.at/quittingweed?_encoding=UTF8&camp=1789&creative=9325&linkCode=ur2&tag=storypodca-20&linkId=2P4S6EY6B462X4AR" target="_blank" rel="noopener noreferrer" style="border:none;text-decoration:none">
 								<div class="paperback">
 									<h6>Paperback</h6>
 									<img src="https://www.niftybuttons.com/amazon/amazon-button3.png">
