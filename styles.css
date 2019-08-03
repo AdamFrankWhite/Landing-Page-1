@@ -2,15 +2,6 @@
   box-sizing: border-box;
 }
 
-/* fix anchor offset */
-:target:before {
-content:"";
-display:block;
-height:70px; /* fixed header height*/
-margin:-70px 0 0; /* negative fixed header height */
-}
-
-
 html {
   scroll-behavior: smooth;
 }
@@ -80,20 +71,22 @@ footer {
 }
 
 .share-link {
-  display: none;
+  display: none!important;
 }
 
 .fixed-header {
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
     text-align: center;
-    /* padding-left: 40%!important; */
-    box-shadow: 3px 3px 5px gray;
+    border-top: 1px solid black;
+    background-color: #273746;
     width: 100vw!important;
     border-radius: 0 0!important;
     z-index: 10;
-    background-color: white!important;
+    color: white;
+    transition: 0.2s ease;
+    /* background-color: white!important; */
 }
 
 .text-center > h6 {
@@ -135,11 +128,23 @@ footer {
   width: 80%;
 }
 
-img[src="ebookMiniMobile.jpg"] {
+
+.tagline,
+.lead {
+  padding: 1em;
+}
+
+p.tagline {
+  font-style: italic;
+}
+
+
+img[src="ebookMiniMobile.png"] {
   display: none;
   height: 400px;
   width: auto!important;
   margin: auto;
+  border-radius: 20px!important;
 }
 
 .navbar-nav a:hover {
@@ -154,19 +159,21 @@ img[src="ebookMiniMobile.jpg"] {
   background-image: url("forest.jpg");
   position: relative!important;
   border-radius: 0 0 10px 10px;
+  text-align: center;
+  background-size: cover;
 
 }
 
 .jumbotron h1,
 .jumbotron p {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.6);
   padding: 0.5em;
   border-radius: 10px;
   width: 65%;
 }
-/* .jumbotron h1 {
-  width: 65%;
-} */
+.jumbotron p {
+  padding: 1em 1.2em;
+}
 
 .jumbo-content {
   width: 75%;
@@ -472,7 +479,7 @@ img[src="icons/stars.png"] {
   height: 250px;
 }
 
-@media (max-width: 723px) {
+@media (max-width: 727px) {
   #mainMenu {
     width: 95%!important;
   }
@@ -488,7 +495,7 @@ img[src="icons/stars.png"] {
     display: none;
   }
 
-  img[src="ebookMiniMobile.jpg"] {
+  img[src="ebookMiniMobile.png"] {
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -505,29 +512,32 @@ img[src="icons/stars.png"] {
 
   .jumbotron h1,
   .jumbotron p {
-    /* background-color: rgba(255,255,255,0.5); */
     padding: 0.5em;
     border-radius: 10px;
     width: 100%!important;
     display: block;
+    font-weight: 400;
   }
   .jumbotron h1 {
-    width: 95%;
+    padding: 0.4em 0.8em;
     display: block;
     margin-top: 1em;
-    font-size: 2em!important;
+    font-size: 2.3em!important;
     font-weight: 400;
   }
 
   .jumbo-content {
     width: 100%;
     margin: auto;
+
     display: block!important;
 
   }
   p.tagline {
     font-size: 0.95em!important;
+    font-style: italic;
   }
+
   .fixed-header {
 
       padding-left: 8%!important;
@@ -650,7 +660,7 @@ img[src="icons/stars.png"] {
 
 }
 
-@media (min-width: 500px) and (max-width: 724px) {
+@media (min-width: 500px) and (max-width: 727px) {
   .card-group {
     width: 410px;
     margin: auto;
@@ -689,7 +699,7 @@ img[src="icons/stars.png"] {
     padding: 0.5em;
   }
 }
-@media (min-width: 725px) {
+@media (min-width: 728px) {
 
   img[src="ebookMini.png"] {
     height: 385px;
@@ -713,6 +723,11 @@ img[src="icons/stars.png"] {
   .jumbotron p {
 
     width: 100%;
+  }
+
+  .jumbotron h1,
+  .jumbotron p {
+    padding: 0.5em;
   }
 
   .tagline {
@@ -845,12 +860,12 @@ img[src="icons/stars.png"] {
   }
 
   hr.my-4 {
-    margin-left: 1%;
-    width: 59%;
+    margin: auto;
+    width: 92%;
   }
 
   img[src="ebookMini.png"] {
-    height: 500px;
+    height: 525px;
     width: auto;
   }
 
@@ -914,6 +929,10 @@ img[src="icons/stars.png"] {
 
 @media (min-width: 1800px) {
   .jumbo-content {
-    width: 50%;
+    width: 55%;
+  }
+
+  .review {
+    width: 70%;
   }
 }
