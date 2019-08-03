@@ -46,7 +46,7 @@
 
 			<div class="jumbotron">
 			  <div class="jumbo-content">
-					<a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank"><img src="ebookMini.png" alt="Quitting Weed: The Complete Guide"></a>
+					<a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank"><img src="images/ebookMini.png" alt="Quitting Weed: The Complete Guide"></a>
 					<h1 class="display-4">Is it time you left cannabis behind?</h1>
 
 				  <p class="lead mt-3">Are you struggling to overcome your marijuana addiction? It's okay. It's not as easy as everyone makes out.</p>
@@ -57,7 +57,7 @@
 					<!-- <a class="btn btn-primary btn-lg" href="#purchase" role="button">Buy Now</a> -->
 
 					<!-- hidden mobile image -->
-					<a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank"><img src="ebookMiniMobile.png" alt="Quitting Weed: The Complete Guide"></a>
+					<a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank"><img src="images/ebookMiniMobile.png" alt="Quitting Weed: The Complete Guide"></a>
 					<div id="stickyCTA" class="sticky-format">
 						<strong>Available as a
 							<a href="https://www.amazon.com/dp/1976799848" target="_blank">paperback</a> and <a href="https://www.amazon.com/dp/B078SDVZFG" target="_blank">ebook</a>
@@ -625,7 +625,7 @@
 					<hr class="feat-rule">
 					<div>
 						<div class="text-center">
-							<img src="booksAll.png">
+							<img src="images/booksAll.png">
 						</div>
 						<div class="stars">
 							<img src="icons/stars.png">

@@ -142,7 +142,7 @@ p.tagline {
 }
 
 
-img[src="ebookMiniMobile.png"] {
+img[src="images/ebookMiniMobile.png"] {
   display: none;
   height: 400px;
   width: auto!important;
@@ -159,7 +159,7 @@ img[src="ebookMiniMobile.png"] {
 
 .jumbotron {
   /* height: 750px; */
-  background-image: url("forest.jpg");
+  background-image: url("images/forest.jpg");
   position: relative!important;
   border-radius: 0 0 10px 10px;
   text-align: center;
@@ -183,7 +183,7 @@ img[src="ebookMiniMobile.png"] {
   margin: auto;
 }
 
-img[src="ebookMini.png"] {
+img[src="images/ebookMini.png"] {
   float: right;
   border-radius: 30px;
 }
@@ -365,7 +365,7 @@ cite span:last-child {
 
 
 
-img[src="booksAll.png"] {
+img[src="images/booksAll.png"] {
   padding-left: 5%;
   border-radius: 10px;
   margin-top: 2em;
@@ -502,11 +502,11 @@ img[src="icons/stars.png"] {
 
 
 
-  img[src="ebookMini.png"] {
+  img[src="images/ebookMini.png"] {
     display: none;
   }
 
-  img[src="ebookMiniMobile.png"] {
+  img[src="images/ebookMiniMobile.png"] {
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -596,7 +596,7 @@ img[src="icons/stars.png"] {
     width: 95%;
     padding: 1em 0;
   }
-  img[src="booksAll.png"] {
+  img[src="images/booksAll.png"] {
     width: 90%;
   }
 
@@ -712,7 +712,7 @@ img[src="icons/stars.png"] {
 }
 @media (min-width: 728px) {
 
-  img[src="ebookMini.png"] {
+  img[src="images/ebookMini.png"] {
     height: 385px;
     width: auto;
   }
@@ -780,7 +780,7 @@ img[src="icons/stars.png"] {
     width: 425px;
   }
 
-  img[src="booksAll.png"] {
+  img[src="images/booksAll.png"] {
     width: 60%;
   }
 
@@ -816,12 +816,6 @@ img[src="icons/stars.png"] {
 }
 
 @media (min-width: 850px) {
-  /* img[src="ebookMini.png"]{
-    height: 487px;
-    width: auto;
-    clear: right;
-  } */
-
   .jumbo-content {
     width: 85%;
   }
@@ -858,7 +852,7 @@ img[src="icons/stars.png"] {
     font-size: 3.7rem!important;
   }
 
-  img[src="ebookMini.png"] {
+  img[src="images/ebookMini.png"] {
     height: 400px;
     width: auto;
   }
@@ -883,12 +877,12 @@ img[src="icons/stars.png"] {
     width: 92%;
   }
 
-  img[src="ebookMini.png"] {
+  img[src="images/ebookMini.png"] {
     height: 525px;
     width: auto;
   }
 
-  img[src="booksAll.png"] {
+  img[src="images/booksAll.png"] {
     width: 50%;
   }
 
@@ -941,7 +935,7 @@ img[src="icons/stars.png"] {
     padding: 0.5em;
   }
 
-  img[src="booksAll.png"] {
+  img[src="images/booksAll.png"] {
     width: 45%;
   }
 
