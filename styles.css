@@ -17,6 +17,25 @@ hr {
   height: 2px;
   width: 30%;
 }
+div.navbar-nav {
+  visibility: visible;
+}
+.navbar {
+  text-transform: uppercase!important;
+  font-weight: 600!important;
+  color: white!important;
+  font-family: "Source Sans Pro", Graphik, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif!important;
+}
+
+.navbar-dark > .navbar-nav > .nav-link {
+  color: white!important;
+}
+
+.navbar-dark > .navbar-nav > .nav-link:hover {
+  color: #ff4f4f!important;
+  transition: 0.2s;
+}
+
 
 #share {
   width: 75px;
@@ -26,6 +45,7 @@ hr {
   display: none;
   z-index: 1000;
 }
+
 
 .sidebar {
   display: inline;
@@ -45,13 +65,14 @@ hr {
 }
 
 footer {
-  background-color: #273746;
+  background-color: #405a73;
   color: lightgray;
   font-weight: 400;
-  padding-bottom: 2em;
+  padding-bottom: 100px;
   width: 100%;
   font-family: Raleway;
   text-align: center;
+	
 }
 
 /* SOCIAL MEDIA */
@@ -108,14 +129,16 @@ footer {
 }
 
 #navbarNavAltMarkup {
-  float: right;
+  margin: auto;
 }
 
 #mainMenu > .navbar-toggler {
   float: right;
 }
 .sticky-format {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #273746;
+  color: white;
+  border: 3px orange solid;
   padding: 0.5em;
   border-radius: 10px;
   text-align: center;
@@ -142,7 +165,7 @@ p.tagline {
 }
 
 
-img[src="images/ebookMiniMobile.png"] {
+img[src="./images/ebookMiniMobile.png"] {
   display: none;
   height: 400px;
   width: auto!important;
@@ -151,7 +174,7 @@ img[src="images/ebookMiniMobile.png"] {
 }
 
 .navbar-nav a:hover {
-  background-color: #138293;
+  color: #ff4f4f!important;
   border-radius: 5px;
   transition: 0.5s;
 }
@@ -169,7 +192,7 @@ img[src="images/ebookMiniMobile.png"] {
 
 .jumbotron h1,
 .jumbotron p {
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.8);
   padding: 0.5em;
   border-radius: 10px;
   width: 65%;
@@ -183,7 +206,7 @@ img[src="images/ebookMiniMobile.png"] {
   margin: auto;
 }
 
-img[src="images/ebookMini.png"] {
+img[src="./images/ebookMini.png"] {
   float: right;
   border-radius: 30px;
 }
@@ -228,6 +251,7 @@ img[src="images/ebookMini.png"] {
   width: 80px;
   height: auto;
   margin: 1em;
+	max-height: 100px; /* fix bug */
 }
 
 .testimonials,
@@ -365,7 +389,7 @@ cite span:last-child {
 
 
 
-img[src="images/booksAll.png"] {
+img[src="./images/booksAll.png"] {
   padding-left: 5%;
   border-radius: 10px;
   margin-top: 2em;
@@ -463,7 +487,7 @@ text-decoration: none!important;
   box-shadow: 2px 2px 4px black;
 }
 
-img[src="icons/stars.png"] {
+img[src="./icons/stars.png"] {
   width: 125px;
   height: auto;
   margin-top: 0.75em;
@@ -502,11 +526,11 @@ img[src="icons/stars.png"] {
 
 
 
-  img[src="images/ebookMini.png"] {
+  img[src="./images/ebookMini.png"] {
     display: none;
   }
 
-  img[src="images/ebookMiniMobile.png"] {
+  img[src="./images/ebookMiniMobile.png"] {
     display: block;
     width: 100%;
     border-radius: 5px;
@@ -591,7 +615,7 @@ img[src="icons/stars.png"] {
     width: 95%;
     padding: 1em 0;
   }
-  img[src="images/booksAll.png"] {
+  img[src="./images/booksAll.png"] {
     width: 90%;
   }
 
@@ -707,7 +731,7 @@ img[src="icons/stars.png"] {
 }
 @media (min-width: 728px) {
 
-  img[src="images/ebookMini.png"] {
+  img[src="./images/ebookMini.png"] {
     height: 385px;
     width: auto;
   }
@@ -775,17 +799,15 @@ img[src="icons/stars.png"] {
     width: 425px;
   }
 
-  img[src="images/booksAll.png"] {
+  img[src="./images/booksAll.png"] {
     width: 60%;
   }
 
-  img[src="icons/maps-lines.svg"] {
+  img[src="./icons/maps-lines.svg"] {
     padding-right: 10px;
   }
 
-  .features .card > img[src="icons/motivation.png"] {
-    padding: 7px 0;
-  }
+  
 
   .stars {
     width: 400px;
@@ -828,6 +850,7 @@ img[src="icons/stars.png"] {
     width: 80%;
     max-width: 800px;
   }
+  
 
   .chapters-group {
     width: 80%;
@@ -847,12 +870,18 @@ img[src="icons/stars.png"] {
     font-size: 3.7rem!important;
   }
 
-  img[src="images/ebookMini.png"] {
+  img[src="./images/ebookMini.png"] {
     height: 400px;
     width: auto;
   }
   .jumbo-content {
     width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #navbarNavAltMarkup {
+    float: right;
   }
 }
 
@@ -872,12 +901,12 @@ img[src="icons/stars.png"] {
     width: 92%;
   }
 
-  img[src="images/ebookMini.png"] {
+  img[src="./images/ebookMini.png"] {
     height: 525px;
     width: auto;
   }
 
-  img[src="images/booksAll.png"] {
+  img[src="./images/booksAll.png"] {
     width: 50%;
   }
 
@@ -930,7 +959,7 @@ img[src="icons/stars.png"] {
     padding: 0.5em;
   }
 
-  img[src="images/booksAll.png"] {
+  img[src="./images/booksAll.png"] {
     width: 45%;
   }
 
@@ -944,4 +973,12 @@ img[src="icons/stars.png"] {
   .review {
     width: 70%;
   }
+}
+
+
+/* Blog */
+
+.post {
+  width: 70%;
+  margin: auto;
 }
