@@ -1,5 +1,5 @@
 "use strict";
-import CC from "CookieConsent";
+
 // Chapter Preview Event Handler
 $.fn.extend({
   toggleText: function toggleText(a, b) {
@@ -64,10 +64,4 @@ $(document).ready(function () {
       });
     }
   });
-});
-
-// Cookie Consent
-const cc = new CC({
-  //...options,
-  type: "categories",
 });
