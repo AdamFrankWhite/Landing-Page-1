@@ -232,15 +232,18 @@ img[src="./images/ebookMini.png"] {
 
 .features .card {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   border: none;
   padding: 1em;
 }
 
 .features .card > img {
-  width: 80px;
-  height: auto;
-  margin: 1em;
+  height: 80px;
+
+  width: auto;
+
   max-height: 100px; /* fix bug */
 }
 
@@ -614,7 +617,9 @@ img[src="./icons/stars.png"] {
   .card-group > .card > .card-body {
     padding-top: 0;
   }
-
+  .features .card > img {
+    margin-bottom: 1em;
+  }
   .review {
     font-size: 0.9em;
   }
@@ -723,15 +728,10 @@ img[src="./icons/stars.png"] {
   }
   .card-group {
     width: 88%;
-    margin: auto;
     flex-direction: row !important;
   }
   .card-group > .card {
     flex-basis: 50%; /*override bootstrap flex mq for above 576px */
-    padding-left: 0;
-  }
-
-  .card-group > .card .card-body {
     padding-left: 0;
   }
 
@@ -888,7 +888,7 @@ img[src="./icons/stars.png"] {
     width: 65%;
   }
   .card-group {
-    width: 70%;
+    width: 50%;
     max-width: 1000px;
   }
   .card-group > .card {
