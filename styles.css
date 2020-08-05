@@ -35,7 +35,7 @@ hr {
 }
 
 .title {
-  font-size: 3vw;
+  font-size: 4vw;
   color: #138293 !important;
 
   font-weight: 600 !important;
@@ -134,10 +134,13 @@ footer {
   width: 95%;
   display: flex;
   flex-direction: column !important;
+  justify-content: center;
+  align-items: center;
 }
 
 #navbarNavAltMarkup {
-  margin: auto;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 #mainMenu > .navbar-toggler {
@@ -177,8 +180,9 @@ p.tagline {
 
 img[src="./images/ebookMiniMobile.png"] {
   display: none;
-  height: 400px;
-  width: auto !important;
+  width: 90%; !important;
+  
+  height: auto;
   margin: auto;
   border-radius: 20px !important;
 }
@@ -534,7 +538,9 @@ img[src="./images/booksAll.png"] {
   display: flex;
   justify-content: space-around;
 }
-
+.purchaseBook img {
+  width: 100%;
+}
 .stars {
   width: 90%;
   margin: 1em auto;
@@ -720,7 +726,7 @@ img[src="./icons/stars.png"] {
   }
 
   .navbar-brand {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 
   .fixed-header {
@@ -870,9 +876,7 @@ img[src="./icons/stars.png"] {
   .jumbo-content {
     width: 90%;
   }
-  .title {
-    font-size: 1.25em;
-  }
+  
   .nav-link {
     font-size: 1em;
   }
@@ -921,9 +925,17 @@ img[src="./icons/stars.png"] {
   #navbarNavAltMarkup {
     float: right;
   }
+  .title {
+    font-size: 2em;
+  }
 }
 
 @media (min-width: 1280px) {
+  #mainMenu {
+    display: inline-block;
+    /* flex-direction: row!important; */
+    
+  }
   .title {
     font-size: 1.75em;
   }
