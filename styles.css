@@ -146,7 +146,7 @@ footer {
 #mainMenu > .navbar-toggler {
   float: right;
   background-color: #138293 !important;
-  width: 70px;
+  width: 60px;
   align-self: center;
 }
 .sticky-format {
@@ -582,7 +582,8 @@ img[src="./icons/stars.png"] {
   }
 
   #mainMenu > .navbar-brand {
-    float: left;
+    text-align: center;
+    margin: 0;
   }
 
   img[src="./images/ebookMini.png"] {
@@ -595,9 +596,7 @@ img[src="./icons/stars.png"] {
     border-radius: 5px;
   }
 
-  .jumbotron * {
-    font-size: 1em !important;
-  }
+
 
   .jumbotron {
     height: auto;
@@ -627,7 +626,7 @@ img[src="./icons/stars.png"] {
     display: block !important;
   }
   p.tagline {
-    font-size: 0.5em !important;
+    font-size: 0.85em !important;
     padding: 1em;
   }
 
@@ -702,6 +701,17 @@ img[src="./icons/stars.png"] {
   .jumbotron {
     background-size: cover;
   }
+  .jumbo-text {
+    text-align: center;
+  }
+
+  .cta-btn-cont a {
+   font-size: 0.85em;
+  }
+  .jumbo-text h1 {
+    margin: 0 auto;
+    padding: 0.25em 1em;
+  }
   .card-group > .card {
     flex-direction: column;
     margin-bottom: 0;
@@ -718,7 +728,9 @@ img[src="./icons/stars.png"] {
   .review {
     font-size: 0.9em;
   }
-
+.quote span {
+  font-size: 1em;
+}
   .chapters-group {
     font-size: 0.9em;
     width: 95%;
@@ -726,7 +738,7 @@ img[src="./icons/stars.png"] {
   }
 
   .navbar-brand {
-    font-size: 1em;
+    font-size: 1.25em;
   }
 
   .fixed-header {
