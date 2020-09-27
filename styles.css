@@ -32,6 +32,22 @@ header .nav-cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+@media (min-width: 1230px) {
+    header .nav-cont {
+        flex-direction: row;
+    }
+}
+@media (min-width: 650px) {
+    header .nav-cont nav {
+        display: block;
+    }
+}
+@media (max-width: 649px) {
+    header .nav-cont nav a {
+        font-size: 0.8em;
+    }
 }
 header .nav-cont > a {
     font-size: 1.75em;
@@ -39,12 +55,33 @@ header .nav-cont > a {
 }
 header .nav-cont nav {
     font-size: 1.3em;
+    flex-direction: column;
     display: flex;
+}
+
+@media (max-width: 649px) {
+    header .nav-cont nav {
+        display: none;
+    }
+}
+@media (min-width: 650px) {
+    header .nav-cont nav {
+        display: flex;
+        flex-direction: row;
+    }
+}
+.show {
+    display: flex !important;
 }
 header .nav-cont nav a {
     text-decoration: none;
     color: #1cbad3;
     padding: 8px;
+}
+header .nav-cont nav a:hover {
+    color: #ff4f4f !important;
+    border-radius: 5px;
+    transition: 0.2s;
 }
 #share {
     width: 75px;
@@ -138,16 +175,19 @@ footer {
     align-items: center;
 }
 
-#navbarNavAltMarkup {
-    /* display: flex;
-  justify-content: flex-end; */
+#toggle-nav {
+    display: block;
+    font-size: 0.9em;
+    padding: 0.15em;
+    margin-top: 0.5em;
+    color: #1cbad3 !important;
+    border: 2px #1cbad3 solid;
+    border-radius: 10px;
 }
-
-#mainMenu > .navbar-toggler {
-    float: right;
-    background-color: #138293 !important;
-
-    align-self: center;
+@media (min-width: 650px) {
+    #toggle-nav {
+        display: none;
+    }
 }
 
 .sticky-format {
@@ -159,7 +199,9 @@ footer {
     text-align: center;
     margin: 1em auto;
 }
-
+#stickyCTA {
+    display: none;
+}
 #stickyCTA a:hover {
     color: orange !important;
 }
@@ -211,7 +253,7 @@ img[src="./images/ebookMiniMobile.png"] {
     margin: auto;
     display: flex;
     background-color: rgba(255, 255, 255, 0.8);
-
+    padding: 2em;
     border-radius: 10px;
 }
 
@@ -223,7 +265,8 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .jumbo-text h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    font-weight: bold;
 }
 
 .cta-btn-cont {
@@ -245,44 +288,27 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .cta-learn {
-    background: linear-gradient(
-        to bottom,
-        rgb(61, 169, 196),
-        rgb(61, 169, 196) 100%
-    );
-    background-position: 0 50%;
-    background-repeat: repeat-x;
-    background-size: 0px 0px;
-    color: rgb(61, 169, 196) !important;
+    background: rgb(61, 169, 196) !important;
     border: rgb(61, 169, 196) solid 1px;
-    transition: background-size 0.2s;
+    color: white;
 }
 
 .cta-learn:hover {
-    background-size: 4px 70px;
     text-decoration: none;
-    color: white !important;
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 .cta-buy {
     color: white !important;
-    background-color: rgb(138, 0, 0) !important ;
-    background: linear-gradient(
-        to bottom,
-        rgb(221, 144, 0) 0%,
-        rgb(221, 144, 0) 100%
-    );
-    background-position: 0 50%;
-    background-repeat: repeat-x;
-    background-size: 0px 0px;
-
-    transition: background-size 0.2s;
+    background-color: rgb(138, 0, 0) !important;
 }
 
 .cta-buy:hover {
-    background-size: 4px 70px;
     text-decoration: none;
-    color: black !important;
+    opacity: 0.7;
+    transition: opacity 0.2s;
 }
 
 .asterisk {
@@ -617,12 +643,15 @@ img[src="./icons/stars.png"] {
     .jumbotron h1 {
         display: block;
         margin-top: 1em;
+        text-align: center;
         /* font-size: 2.3em !important; */
-        font-weight: 400;
+        font-weight: bold;
+        width: 90% !important;
+        margin: auto;
     }
 
     .jumbo-content {
-        width: 100%;
+        width: 90%;
         margin: auto;
 
         display: block !important;
@@ -782,9 +811,33 @@ img[src="./icons/stars.png"] {
         font-size: 0.85em;
     }
 }
-@media (min-width: 500px) and (max-width: 900px) {
+
+@media (max-width: 400px) {
+    header .nav-cont > a {
+        font-size: 0.9em;
+    }
+}
+@media (max-width: 649px) {
+    .cta-btn-cont a {
+        font-size: 1em;
+        margin-top: 1.5em;
+        padding: 1em;
+    }
+    .jumbotron {
+        text-align: center;
+    }
+    header .nav-cont > a {
+        font-size: 1.25em;
+    }
+}
+@media (max-width: 400px) {
+    header .nav-cont > a {
+        font-size: 1em;
+    }
+}
+@media (min-width: 700px) and (max-width: 900px) {
     .jumbo-content {
-        /* text-align: center; */
+        text-align: center;
     }
     .jumbo-text h1 {
         font-size: 4em;
@@ -793,10 +846,10 @@ img[src="./icons/stars.png"] {
     .lead {
         font-size: 1.75em;
     }
-    img {
+    /* img {
         height: 300px;
         width: auto;
-    }
+    } */
     .tagline {
         font-size: 1.25em;
     }
@@ -861,7 +914,6 @@ img[src="./icons/stars.png"] {
     }
     .jumbo-content {
         width: 96%;
-        padding: 2em;
     }
     .jumbo-text {
         margin-right: 1em;
