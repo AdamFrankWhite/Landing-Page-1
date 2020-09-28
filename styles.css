@@ -260,7 +260,7 @@ img[src="./images/ebookMiniMobile.png"] {
 .jumbo-text {
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: space-evenly;
     margin: 0;
 }
 
@@ -305,6 +305,9 @@ img[src="./images/ebookMiniMobile.png"] {
     background-color: rgb(138, 0, 0) !important;
 }
 
+.flex {
+    display: flex !important;
+}
 .cta-buy:hover {
     text-decoration: none;
     opacity: 0.7;
@@ -317,7 +320,7 @@ img[src="./images/ebookMiniMobile.png"] {
     padding-top: 0.75em;
 }
 img[src="./images/ebookMini.png"] {
-    border-radius: 20px;
+    border-radius: 30px;
     width: 300px;
     height: auto;
 }
@@ -973,11 +976,6 @@ img[src="./icons/stars.png"] {
     #share {
         width: 50px;
     }
-
-    .sidebar li {
-        font-size: 1em;
-        padding: 0.5em;
-    }
 }
 
 @media (min-width: 850px) {
@@ -1114,11 +1112,6 @@ img[src="./icons/stars.png"] {
 
     #share {
         width: 70px;
-    }
-
-    .sidebar li {
-        font-size: 1.5em;
-        padding: 0.5em;
     }
 
     img[src="./images/booksAll.png"] {

@@ -82,4 +82,10 @@ $(document).ready(function() {
             }
         });
     });
+    //Avoid menu window-resize bug after closing mobile menu
+    $(window).resize(() => {
+        if ($(window.innerWidth > 649)) {
+            $(".nav-cont nav").css({ display: "flex" });
+        }
+    });
 });
