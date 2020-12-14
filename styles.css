@@ -24,6 +24,7 @@ hr {
 }
 header {
     padding: 1em;
+    background: #2c8aff;
 }
 header .nav-cont {
     width: 95%;
@@ -51,7 +52,7 @@ header .nav-cont {
 }
 header .nav-cont > a {
     font-size: 1.75em;
-    color: #138293 !important;
+    color: white !important;
 }
 header .nav-cont nav {
     font-size: 1.3em;
@@ -75,7 +76,7 @@ header .nav-cont nav {
 }
 header .nav-cont nav a {
     text-decoration: none;
-    color: #1cbad3;
+    color: white;
     padding: 8px;
 }
 header .nav-cont nav a:hover {
@@ -243,14 +244,15 @@ img[src="./images/ebookMiniMobile.png"] {
     background-image: url("images/experiences.jpg");
 
     position: relative !important;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0;
     background-size: cover;
     font-family: "Open Sans", "sans-serif";
 }
 
 .jumbo-content {
-    width: 75%;
-    margin: auto;
+    width: 40%;
+    margin-left: auto;
+    margin-bottom: 5em;
     display: flex;
     background-color: rgba(255, 255, 255, 0.8);
     padding: 2em;
@@ -265,11 +267,28 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .jumbo-text h1 {
+    width: 100%;
+    text-align: right;
+    margin-left: auto;
     font-size: 3.5em;
     font-weight: bold;
 }
+.jumbo-text p {
+    width: 90%;
+    text-align: right;
+    margin-left: auto;
+}
 
+.jumbo-text hr {
+    width: 60%;
+    display: block;
+    margin-right: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-top: 2px solid darkgray;
+}
 .cta-btn-cont {
+    text-align: right;
     padding: 2em 0;
     padding-left: 0.5em;
 }
@@ -278,9 +297,12 @@ img[src="./images/ebookMiniMobile.png"] {
     text-transform: uppercase;
     display: inline;
     font-size: 1em;
-    padding: 1em;
+    padding: 0.75em;
+
+    border-radius: 5px;
+}
+.cta-buy {
     margin-right: 1em;
-    border-radius: 40px;
 }
 .cta-learn > i,
 .cta-buy > i {
@@ -334,7 +356,12 @@ img[src="./images/ebookMini.png"] {
     color: #138293;
     margin: auto;
 }
-
+.purchase {
+    display: flex;
+}
+.purchase .book-pic {
+    width: 60%;
+}
 .features {
     background-color: white;
 }
@@ -654,7 +681,6 @@ img[src="./icons/stars.png"] {
     }
 
     .jumbo-content {
-        width: 90%;
         margin: auto;
 
         display: block !important;
@@ -915,9 +941,7 @@ img[src="./icons/stars.png"] {
     #previews {
         width: 80%;
     }
-    .jumbo-content {
-        width: 96%;
-    }
+
     .jumbo-text {
         margin-right: 1em;
     }
@@ -979,10 +1003,6 @@ img[src="./icons/stars.png"] {
 }
 
 @media (min-width: 850px) {
-    .jumbo-content {
-        width: 90%;
-    }
-
     .nav-link {
         font-size: 1em;
     }
@@ -1022,9 +1042,6 @@ img[src="./icons/stars.png"] {
     height: 400px;
     width: auto;
   } */
-    .jumbo-content {
-        width: 90%;
-    }
 }
 
 @media (min-width: 992px) {
@@ -1054,9 +1071,6 @@ img[src="./icons/stars.png"] {
     .cta-buy {
         font-size: 1.25em;
     }
-    .jumbo-content {
-        width: 90%;
-    }
 
     hr.my-4 {
         margin: auto;
@@ -1078,26 +1092,14 @@ img[src="./icons/stars.png"] {
 }
 
 @media (min-width: 1200px) {
-    /* .jumbo-content {
-    width: 80%;
-  } */
 }
 @media (min-width: 1350px) {
-    .jumbo-content {
-        width: 78%;
-    }
 }
 
 @media (min-width: 1400px) {
-    .jumbo-content {
-        width: 75%;
-    }
 }
 
 @media (min-width: 1500px) {
-    .jumbo-content {
-        width: 75%;
-    }
     .card-group {
         width: 50%;
         max-width: 1000px;
