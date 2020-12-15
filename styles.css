@@ -23,8 +23,15 @@ hr {
     width: 30%;
 }
 header {
-    padding: 1em;
-    background: #2c8aff;
+    padding: 0.5em 1em;
+    background: #006633cc;
+    /* background: rgba(0, 0, 0, 0.76); */
+}
+
+header img[alt="icon"] {
+    width: 35px;
+    height: auto;
+    margin-right: 0.5em;
 }
 header .nav-cont {
     width: 95%;
@@ -50,12 +57,16 @@ header .nav-cont {
         font-size: 0.8em;
     }
 }
-header .nav-cont > a {
-    font-size: 1.75em;
+header .nav-cont > div {
+    display: flex;
+    align-items: center;
+}
+header .nav-cont > div > a {
+    font-size: 1.6em;
     color: white !important;
 }
 header .nav-cont nav {
-    font-size: 1.3em;
+    font-size: 1.2em;
     flex-direction: column;
     display: flex;
 }
@@ -214,10 +225,12 @@ footer {
 
 .tagline,
 .lead {
-    padding-top: 0.5em;
+    padding-top: 0.25em;
     margin: 0;
 }
-
+.lead {
+    line-height: 1.2em;
+}
 p.tagline {
     font-style: italic;
 }
@@ -250,20 +263,25 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .jumbo-content {
-    width: 40%;
+    width: 50%;
     margin-left: auto;
-    margin-bottom: 5em;
+    margin-bottom: 12em;
     display: flex;
-    background-color: rgba(255, 255, 255, 0.8);
-    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1.5em;
     border-radius: 10px;
 }
-
+.jumbo-content img {
+    width: 45%;
+    height: auto;
+    padding: 0.75em;
+}
 .jumbo-text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
+    font-size: 0.7em;
 }
 
 .jumbo-text h1 {
@@ -283,8 +301,8 @@ img[src="./images/ebookMiniMobile.png"] {
     width: 60%;
     display: block;
     margin-right: 0;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 0;
+    margin-bottom: 0;
     border-top: 2px solid darkgray;
 }
 .cta-btn-cont {
@@ -298,7 +316,7 @@ img[src="./images/ebookMiniMobile.png"] {
     display: inline;
     font-size: 1em;
     padding: 0.75em;
-
+    border: white solid 1px;
     border-radius: 5px;
 }
 .cta-buy {
@@ -310,8 +328,8 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .cta-learn {
-    background: rgb(61, 169, 196) !important;
-    border: rgb(61, 169, 196) solid 1px;
+    background: rgb(175, 66, 3) !important;
+
     color: white;
 }
 
@@ -1065,11 +1083,11 @@ img[src="./icons/stars.png"] {
         font-size: 1.25em;
     }
     .tagline {
-        font-size: 0.95em !important;
+        font-size: 1.1em !important;
     }
     .cta-learn,
     .cta-buy {
-        font-size: 1.25em;
+        font-size: 1.35em;
     }
 
     hr.my-4 {
