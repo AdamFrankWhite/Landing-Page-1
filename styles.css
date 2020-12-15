@@ -273,7 +273,7 @@ img[src="./images/ebookMiniMobile.png"] {
     position: relative !important;
     border-radius: 0;
     background-size: cover;
-    font-family: "Open Sans", "sans-serif";
+    font-family: "Raleway", "sans-serif";
     margin-bottom: 0 !important;
     padding-top: 3rem !important;
 }
@@ -306,6 +306,7 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 .jumbo-text {
     display: flex;
+    font-family: "Raleway";
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
@@ -313,7 +314,8 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .jumbo-text h1 {
-    width: 80%;
+    width: 90%;
+    text-transform: uppercase;
     text-align: right;
     margin-left: auto;
     font-size: 3.5em;
@@ -411,7 +413,7 @@ img[src="./images/ebookMini.png"] {
 .chapters,
 .purchase,
 .samples {
-    font-family: Merriweather;
+    font-family: "Roboto Slab";
     color: #138293;
     margin: auto;
 }
@@ -546,13 +548,14 @@ small {
 }
 
 .quote span {
-    font-family: "Open Sans";
+    font-family: "Raleway";
     font-size: 1.2em;
     display: block;
     text-align: justify;
     margin-bottom: 1em;
     padding: 0 2em;
     width: 100%;
+    font-weight: 500;
 }
 .quote span:nth-of-type(1) {
     padding-top: 1em;
