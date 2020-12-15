@@ -57,11 +57,11 @@ header .nav-cont {
         font-size: 0.8em;
     }
 }
-header .nav-cont > div {
+header .nav-cont > .nav-title {
     display: flex;
     align-items: center;
 }
-header .nav-cont > div > a {
+header .nav-cont > .nav-title > a {
     font-size: 1.6em;
     color: white !important;
 }
@@ -74,6 +74,14 @@ header .nav-cont nav {
 @media (max-width: 649px) {
     header .nav-cont nav {
         display: none;
+    }
+    .nav-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 0.9em;
     }
 }
 @media (min-width: 650px) {
@@ -266,21 +274,33 @@ img[src="./images/ebookMiniMobile.png"] {
     border-radius: 0;
     background-size: cover;
     font-family: "Open Sans", "sans-serif";
+    margin-bottom: 0 !important;
 }
 
 .jumbo-content {
-    width: 50%;
+    width: 55%;
     margin-left: auto;
-    margin-bottom: 12em;
+
     display: flex;
     background-color: rgba(255, 255, 255, 0.3);
     padding: 0.5em;
     border-radius: 10px;
 }
+
+@media (max-width: 900px) {
+    .jumbo-content {
+        width: 100%;
+    }
+}
 .jumbo-content img {
-    width: 45%;
+    width: 50%;
     height: auto;
-    padding: 0.75em;
+    padding: 1.25em;
+}
+@media (max-width: 1429px) {
+    .jumbo-content > img {
+        display: none;
+    }
 }
 .jumbo-text {
     display: flex;
@@ -291,11 +311,12 @@ img[src="./images/ebookMiniMobile.png"] {
 }
 
 .jumbo-text h1 {
-    width: 100%;
+    width: 80%;
     text-align: right;
     margin-left: auto;
     font-size: 3.5em;
     font-weight: bold;
+    padding-top: 0.25em;
 }
 .jumbo-text p {
     width: 90%;
@@ -324,13 +345,14 @@ img[src="./images/ebookMiniMobile.png"] {
 .cta-btn-cont .stars img {
     width: 30%;
     height: auto;
-    padding-top: 1.75em;
+    padding-top: 1.5em;
+    padding-bottom: 0.25em;
     padding-right: 0 !important;
 }
 .cta-learn,
 .cta-buy {
     text-transform: uppercase;
-    display: inline;
+    display: inline-block;
     font-size: 1em;
     padding: 0.75em;
     border: white solid 1px;
@@ -393,6 +415,7 @@ img[src="./images/ebookMini.png"] {
 }
 .purchase {
     display: flex;
+    font-family: "Open Sans" !important;
 }
 .purchase .book-pic {
     width: 60%;
@@ -405,7 +428,14 @@ img[src="./images/ebookMini.png"] {
     margin: auto;
     background-color: darkgray;
 }
+.card-title {
+    font-family: "Roboto Slab";
+    font-size: 1.4em;
+}
 
+.card-subtitle {
+    font-family: "Open Sans";
+}
 .card-group {
     width: 90%;
     margin: 2em auto;
@@ -513,14 +543,21 @@ small {
     align-self: flex-end;
 }
 
-cite span {
-    font-family: "Merriweather";
+.quote span {
+    font-family: "Open Sans";
     font-size: 1.2em;
     display: block;
-    text-align: center;
+    text-align: justify;
     margin-bottom: 1em;
+    padding: 0 2em;
+    width: 100%;
 }
-
+.quote span:nth-of-type(1) {
+    padding-top: 1em;
+}
+.quote span:nth-of-type(2) {
+    padding-bottom: 1em;
+}
 .chapters-group {
     display: flex;
     flex-wrap: wrap;
@@ -540,7 +577,14 @@ cite span {
     text-align: left;
     margin-bottom: 2.5em;
 }
+.chapters-group h5 {
+    font-family: "Roboto Slab";
+}
 
+.chapters-group p,
+.chapters-group a {
+    font-family: "Open Sans";
+}
 .chapters-group > .card > .card-body > a {
     position: absolute;
     bottom: 0;
@@ -570,7 +614,9 @@ img[src="./images/booksAll.png"] {
     border-radius: 15px;
     padding: 2em;
 }
-
+#previews h5 {
+    font-family: "Roboto Slab";
+}
 #chap1Preview,
 #chap2Preview,
 #chap3Preview,
@@ -963,7 +1009,7 @@ img[src="./icons/stars.png"] {
 }
 @media (min-width: 728px) {
     #testimonials {
-        height: 860px;
+        /* height: 860px; */
     }
     .reviews-mobile {
         display: none;
@@ -994,7 +1040,7 @@ img[src="./icons/stars.png"] {
 
     .features .card-group .card-subtitle {
         padding-left: 0;
-        font-size: 0.9em !important;
+        font-size: 1em !important;
     }
     .chapters-group .card .card-img-top {
         height: 245px;
@@ -1131,7 +1177,10 @@ img[src="./icons/stars.png"] {
 @media (min-width: 1350px) {
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1430px) {
+    .jumbo-content {
+        margin-bottom: 12em;
+    }
 }
 
 @media (min-width: 1500px) {
