@@ -235,15 +235,17 @@ a[href="#top"] {
     a[href="#top"] {
         bottom: 10px;
     }
-    #stickyCTA {
-        display: flex !important;
-        flex-direction: column;
-    }
+
     .jumbo-text hr {
         margin: auto !important;
     }
 }
-
+@media (min-width: 900px) {
+    #stickyCTA {
+        display: flex !important;
+        flex-direction: column;
+    }
+}
 .my-4 {
     height: 2px;
     background-color: #fff;
