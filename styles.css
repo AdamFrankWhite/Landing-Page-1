@@ -231,6 +231,16 @@ footer {
     color: white;
     font-weight: 400;
 }
+
+a[href="#top"] {
+    position: absolute;
+    right: 3%;
+    bottom: 20px;
+
+    font-size: 2em;
+    color: white;
+    margin-left: auto;
+}
 .my-4 {
     height: 2px;
     background-color: white;
@@ -247,6 +257,7 @@ footer {
 }
 p.tagline {
     font-style: italic;
+    width: 95%;
 }
 
 img[src="./images/ebookMiniMobile.png"] {
@@ -313,6 +324,25 @@ img[src="./images/ebookMiniMobile.png"] {
     font-size: 0.8em;
 }
 
+@media (max-width: 900px) {
+    .jumbo-text,
+    .lead,
+    .tagline,
+    p {
+        margin: auto;
+        width: 95% !important;
+        text-align: center !important;
+    }
+    .jumbo-content {
+        background: rgba(255, 255, 255, 0.85);
+    }
+    .tagline {
+        font-weight: 500;
+    }
+    .lead {
+        font-weight: bold;
+    }
+}
 .jumbo-text h1 {
     width: 90%;
     text-transform: uppercase;
@@ -751,7 +781,6 @@ img[src="./icons/stars.png"] {
         border-radius: 10px;
         width: 100% !important;
         display: block;
-        font-weight: 400;
     }
     .jumbotron p {
         /* padding: 0.5em; */
@@ -1031,9 +1060,7 @@ img[src="./icons/stars.png"] {
     .jumbo-text {
         margin-right: 1em;
     }
-    .tagline {
-        width: 100% !important;
-    }
+
     .card-group {
         width: 88%;
         flex-direction: row !important;
