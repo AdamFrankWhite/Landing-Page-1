@@ -324,6 +324,10 @@ img[src="./images/ebookMiniMobile.png"] {
     font-size: 0.8em;
 }
 
+.jumbo-content {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+}
 @media (max-width: 900px) {
     .jumbo-text,
     .lead,
@@ -332,9 +336,10 @@ img[src="./images/ebookMiniMobile.png"] {
         margin: auto;
         width: 95% !important;
         text-align: center !important;
+        color: white;
     }
     .jumbo-content {
-        background: rgba(255, 255, 255, 0.85);
+        background: rgba(0, 0, 0, 0.8);
     }
     .tagline {
         font-weight: 500;
