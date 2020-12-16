@@ -596,7 +596,7 @@ small {
     align-self: flex-end;
 }
 .quote span {
-    font: 500 1.2em "Raleway";
+    font: 500 1.2em "Open Sans";
     display: block;
     text-align: justify;
     margin-bottom: 1em;
