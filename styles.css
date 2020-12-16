@@ -222,6 +222,13 @@ a[href="#top"] {
         color: #fff;
         margin-left: auto;
     }
+    .jumbo-text .tagline {
+        font-size: 1em;
+    }
+    .jumbo-text .lead {
+        font-size: 1.3em;
+        font-weight: 600;
+    }
 }
 
 @media (max-width: 899px) {
@@ -304,6 +311,12 @@ img[src="./images/ebookMiniMobile.png"] {
     height: auto;
     border-radius: 15px;
 }
+
+@media (min-width: 650px) and (max-width: 899px) {
+    .jumbo-content .book-mobile {
+        border-radius: 25px;
+    }
+}
 @media (max-width: 1429px) {
     .jumbo-content > img {
         display: none;
@@ -313,9 +326,29 @@ img[src="./images/ebookMiniMobile.png"] {
         text-align: center;
     }
 }
+@media (max-width: 499px) {
+    .cta-btn-cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .cta-btn-cont a {
+        width: 100%;
+        margin: 0;
+        padding: 0.5em;
+    }
+}
+@media (min-width: 900px) and (max-width: 1429px) {
+    .jumbo-content .book-mobile {
+        width: 35%;
+
+        margin-right: 0;
+    }
+}
+
 .jumbo-text {
     display: flex;
-    font: 0.8em "Raleway";
+    font: 0.9em "Raleway";
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
@@ -345,7 +378,7 @@ img[src="./images/ebookMiniMobile.png"] {
     text-transform: uppercase;
     text-align: right;
     margin-left: auto;
-    font-size: 3.5em;
+    font-size: 3.2em;
     font-weight: bold;
     padding-top: 0.25em;
 }
@@ -899,7 +932,7 @@ br {
 @media (max-width: 649px) {
     .cta-btn-cont a {
         font-size: 1em;
-        margin-top: 1.5em;
+        margin-top: 0.5em;
         padding: 1em;
     }
     .jumbotron {
@@ -1033,10 +1066,7 @@ br {
     .navbar-nav > .nav-link {
         font-size: 1.25em;
     }
-    .tagline {
-        font-size: 1.1em !important;
-    }
-    .cta-learn,
+    + .cta-learn,
     .cta-buy {
         font-size: 1.35em;
     }
