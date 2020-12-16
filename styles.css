@@ -493,6 +493,19 @@ img[src="./images/ebookMini.png"] {
 .purchase .book-pic {
     width: 60%;
 }
+
+.purchase-cta .stars img {
+    width: 25%;
+}
+@media (min-width: 900px) {
+    .purchase-cta .stars img {
+        width: 35%;
+    }
+}
+
+.purchase-cta .stars {
+    font-size: 1.1em;
+}
 .features {
     background-color: #fff;
 }
@@ -720,12 +733,13 @@ img[src="./images/booksAll.png"] {
     width: 100%;
 }
 #purchase .stars {
-    width: 90%;
     margin: 1em auto;
-    border: 3px #000 solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px #000;
 }
+
+#purchase h2 {
+    color: #138293;
+}
+
 img[src="./icons/stars.png"] {
     width: 125px;
     height: auto;
@@ -826,9 +840,7 @@ img[src="./icons/stars.png"] {
     img[src="./images/booksAll.png"] {
         width: 90%;
     }
-    .smashwords-widget {
-        width: 90%;
-    }
+
     #share {
         display: none !important;
     }
@@ -1066,7 +1078,7 @@ br {
     .navbar-nav > .nav-link {
         font-size: 1.25em;
     }
-    + .cta-learn,
+    .cta-learn,
     .cta-buy {
         font-size: 1.35em;
     }
