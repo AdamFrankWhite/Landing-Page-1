@@ -1,12 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
 html {
     scroll-behavior: smooth;
-    background-color: #dddddd;
+    background-color: #ddd;
 }
-
 body {
     max-width: 1500px;
     margin: auto;
@@ -16,18 +14,14 @@ h2 {
     letter-spacing: 0.03em;
     font-family: "Roboto Slab";
 }
-
 hr {
-    /* border: none; */
     height: 2px;
     width: 30%;
 }
 header {
     padding: 0.5em 1em;
-    background: #006633cc;
-    /* background: rgba(0, 0, 0, 0.76); */
+    background: #063;
 }
-
 header img[alt="icon"] {
     width: 35px;
     height: auto;
@@ -63,14 +57,13 @@ header .nav-cont > .nav-title {
 }
 header .nav-cont > .nav-title > a {
     font-size: 1.6em;
-    color: white !important;
+    color: #fff !important;
 }
 header .nav-cont nav {
     font-size: 1.2em;
     flex-direction: column;
     display: flex;
 }
-
 @media (max-width: 649px) {
     header .nav-cont nav {
         display: none;
@@ -95,7 +88,7 @@ header .nav-cont nav {
 }
 header .nav-cont nav a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     padding: 8px;
 }
 header .nav-cont nav a:hover {
@@ -111,7 +104,6 @@ header .nav-cont nav a:hover {
     display: none;
     z-index: 1000;
 }
-
 .sidebar {
     display: inline;
     list-style: none;
@@ -123,70 +115,57 @@ header .nav-cont nav a:hover {
     padding-left: 0 !important;
     text-align: center;
 }
-
 .sidebar li {
     font-size: 1.5em;
     padding: 0.5em;
 }
-
 footer {
     background-color: #405a73;
-    color: lightgray;
+    color: #d3d3d3;
     font-weight: 400;
     padding-bottom: 100px;
     width: 100%;
     font-family: Raleway;
     text-align: center;
 }
-
-/* SOCIAL MEDIA */
-
 .social-media {
     list-style: none;
     display: flex;
-    padding: 1em 0 0 0;
+    padding: 1em 0 0;
     margin: auto;
     justify-content: center;
 }
-
 .social-media li {
     font-size: 1.5em;
     padding: 0.3em;
 }
-
 .share-link {
     display: none !important;
 }
-
 .fixed-header {
     position: fixed;
     bottom: 0;
     left: 0;
     text-align: center;
-    border-top: 1px solid black;
+    border-top: 1px solid #000;
     background-color: #273746;
     width: 100vw !important;
     border-radius: 0 0 !important;
     z-index: 10;
-    color: white;
+    color: #fff;
     transition: 0.2s ease;
-    /* background-color: white!important; */
 }
-
 .text-center > h6 {
     font-family: Raleway;
     font-weight: 600;
     letter-spacing: 0.03em;
 }
-
 .raleway {
     font-family: Raleway;
 }
-
 .merriweather {
     font-family: Merriweather;
 }
-
 #mainMenu {
     width: 95%;
     display: flex;
@@ -194,25 +173,25 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
 #toggle-nav {
     display: block;
     font-size: 0.9em;
     padding: 0.15em;
     margin-top: 0.5em;
-    color: #1cbad3 !important;
-    border: 2px #1cbad3 solid;
+    background: white;
+    color: #063;
+    border: 2px white solid;
     border-radius: 10px;
+    text-decoration: none;
 }
 @media (min-width: 650px) {
     #toggle-nav {
         display: none;
     }
 }
-
 .sticky-format {
-    color: white;
-    border: 3px orange solid;
+    color: #fff;
+    border: 3px #ffa500 solid;
     padding: 0.5em;
     border-radius: 10px;
     text-align: center;
@@ -220,33 +199,49 @@ footer {
 }
 #stickyCTA {
     display: none;
-    background: #006633;
+    background: #063;
 }
 #stickyCTA a:hover {
-    color: orange !important;
+    color: #ffa500 !important;
 }
-
 #stickyCTA span {
     text-transform: uppercase;
-    color: white;
+    color: #fff;
     font-weight: 400;
 }
-
 a[href="#top"] {
+    font-size: 2em;
+    color: #fff;
     position: absolute;
     right: 3%;
     bottom: 20px;
-
-    font-size: 2em;
-    color: white;
-    margin-left: auto;
 }
+@media (min-width: 900px) {
+    a[href="#top"] {
+        font-size: 2em;
+        color: #fff;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 899px) {
+    a[href="#top"] {
+        bottom: 10px;
+    }
+    #stickyCTA {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .jumbo-text hr {
+        margin: auto !important;
+    }
+}
+
 .my-4 {
     height: 2px;
-    background-color: white;
+    background-color: #fff;
     width: 80%;
 }
-
 .tagline,
 .lead {
     padding-top: 0.25em;
@@ -259,28 +254,21 @@ p.tagline {
     font-style: italic;
     width: 95%;
 }
-
 img[src="./images/ebookMiniMobile.png"] {
     display: none;
     width: 70%;
-
     height: auto;
     margin: auto;
     border-radius: 35px !important;
     padding-top: 1em;
 }
-
 .navbar-nav a:hover {
     color: #ff4f4f !important;
     border-radius: 5px;
     transition: 0.2s;
 }
-
-/* Jumbotron */
-
 .jumbotron {
     background-image: url("images/experiences.jpg");
-
     position: relative !important;
     border-radius: 0;
     background-size: cover;
@@ -292,13 +280,12 @@ img[src="./images/ebookMiniMobile.png"] {
 .jumbo-content {
     width: 60%;
     margin-left: auto;
-
     display: flex;
-    background-color: rgba(255, 255, 255, 0.3);
-    padding: 0.5em 1em;
-    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5em 1.5em;
+    border-radius: 15px;
+    color: #fff;
 }
-
 @media (max-width: 900px) {
     .jumbo-content {
         width: 100%;
@@ -310,33 +297,38 @@ img[src="./images/ebookMiniMobile.png"] {
     margin: 1em 0;
     border-radius: 25px;
 }
+.jumbo-content .book-mobile {
+    display: none;
+    margin: 1em auto 0 auto;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+}
 @media (max-width: 1429px) {
     .jumbo-content > img {
         display: none;
     }
+    .jumbo-content .book-mobile {
+        display: block;
+        text-align: center;
+    }
 }
 .jumbo-text {
     display: flex;
-    font-family: "Raleway";
+    font: 0.8em "Raleway";
     flex-direction: column;
     justify-content: space-evenly;
     margin: 0;
-    font-size: 0.8em;
-}
-
-.jumbo-content {
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
 }
 @media (max-width: 900px) {
     .jumbo-text,
     .lead,
     .tagline,
-    p {
+    .jumbo-text p {
         margin: auto;
         width: 95% !important;
         text-align: center !important;
-        color: white;
+        color: #fff;
     }
     .jumbo-content {
         background: rgba(0, 0, 0, 0.8);
@@ -362,21 +354,34 @@ img[src="./images/ebookMiniMobile.png"] {
     text-align: right;
     margin-left: auto;
 }
-
 .jumbo-text hr {
     width: 60%;
     display: block;
     margin-right: 0;
     margin-top: 0;
     margin-bottom: 0;
-    border-top: 2px solid darkgray;
+    border-top: 2px solid #a9a9a9;
+}
+@media (max-width: 899px) {
+    .cta-btn-cont {
+        padding-top: 0 !important;
+    }
+    .cta-learn,
+    .cta-buy {
+        font-size: 1.2em !important;
+    }
+    .tagline {
+        font-size: 1.1em;
+    }
+    /* .jumbo-text h1 {
+        width: 100% !important;
+    } */
 }
 .cta-btn-cont {
     text-align: right;
     padding-top: 2em;
     padding-left: 0.5em;
 }
-
 .cta-btn-cont .stars,
 .cta-btn-cont .stars img {
     margin-left: auto;
@@ -394,44 +399,41 @@ img[src="./images/ebookMiniMobile.png"] {
     display: inline-block;
     font-size: 1em;
     padding: 0.75em;
-    border: white solid 1px;
+    border: #fff solid 1px;
     border-radius: 5px;
 }
 .cta-buy {
     margin-right: 1em;
+    color: #fff !important;
+    background-color: #8a0000;
 }
 .cta-learn > i,
 .cta-buy > i {
     padding-left: 0.25em;
 }
-
 .cta-learn {
-    background: rgb(175, 66, 3) !important;
-
-    color: white;
+    background: #af4203;
+    color: #fff;
 }
-
 .cta-learn:hover {
     text-decoration: none;
-    color: white;
+    color: #fff;
     opacity: 0.7;
     transition: opacity 0.2s;
 }
-
-.cta-buy {
-    color: white !important;
-    background-color: rgb(138, 0, 0) !important;
-}
-
 .flex {
     display: flex !important;
+}
+
+strong {
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .cta-buy:hover {
     text-decoration: none;
     opacity: 0.7;
     transition: opacity 0.2s;
 }
-
 .asterisk {
     font-size: 0.9em;
     font-weight: 500;
@@ -442,7 +444,6 @@ img[src="./images/ebookMini.png"] {
     width: 300px;
     height: auto;
 }
-
 .features,
 .testimonials,
 .chapters,
@@ -460,18 +461,15 @@ img[src="./images/ebookMini.png"] {
     width: 60%;
 }
 .features {
-    background-color: white;
+    background-color: #fff;
 }
-
 .feat-rule {
     margin: auto;
-    background-color: darkgray;
+    background-color: #a9a9a9;
 }
 .card-title {
-    font-family: "Roboto Slab";
-    font-size: 1.4em;
+    font: 1.4em "Roboto Slab";
 }
-
 .card-subtitle {
     font-family: "Open Sans";
 }
@@ -481,7 +479,6 @@ img[src="./images/ebookMini.png"] {
     display: flex;
     flex-direction: column !important;
 }
-
 .features .card {
     display: flex;
     flex-direction: column;
@@ -490,42 +487,34 @@ img[src="./images/ebookMini.png"] {
     border: none;
     padding: 1em;
 }
-
 .features .card > img {
     height: 80px;
-
     width: auto;
-
-    max-height: 100px; /* fix bug */
+    max-height: 100px;
 }
-
 .testimonials,
 .samples {
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 small {
     margin: 0.5em auto;
     width: 75%;
     display: block;
     text-align: center;
-    color: black;
+    color: #000;
     font-family: Raleway;
     padding: 1em;
-    border-top: dotted 1px gray;
+    border-top: 1px dotted;
 }
-
 .samples cite {
     display: block;
 }
-
 .reviews-rule {
-    margin: auto;
-    margin-bottom: 2em;
-    background-color: darkgray;
+    margin: auto auto 2em;
+    background-color: #a9a9a9;
 }
-
 .review {
-    background-color: white;
+    background-color: #fff;
     width: 60%;
     border-radius: 10px;
     margin: 2em auto;
@@ -535,17 +524,14 @@ small {
     text-align: center;
     box-shadow: 4px 3px 4px gray;
 }
-
 .review h2,
 .review cite {
     display: inline-block;
     width: 75%;
 }
-
 .review h2 {
     padding: 1em;
 }
-
 .review-cont {
     margin: 0.5em;
     border-radius: 10px;
@@ -553,7 +539,6 @@ small {
     flex-direction: column;
     align-items: center;
 }
-
 .quote {
     display: flex;
     flex-direction: column;
@@ -561,36 +546,29 @@ small {
     margin: 2em auto;
     width: 90%;
 }
-
 .reviewer {
     font-weight: bold;
     align-self: flex-end;
     padding-right: 13%;
     padding-top: 1em;
 }
-
 .review-cont img {
     width: 50px;
     height: auto;
 }
-
 .review-cont img:first-of-type {
-    align-self: flex-start; /* note floats do not work in a flexbox */
+    align-self: flex-start;
 }
-
 .review-cont img:last-of-type {
     align-self: flex-end;
 }
-
 .quote span {
-    font-family: "Raleway";
-    font-size: 1.2em;
+    font: 500 1.2em "Raleway";
     display: block;
     text-align: justify;
     margin-bottom: 1em;
     padding: 0 2em;
     width: 100%;
-    font-weight: 500;
 }
 .quote span:nth-of-type(1) {
     padding-top: 1em;
@@ -605,14 +583,12 @@ small {
     width: 67%;
     margin: 4em auto;
 }
-
 .chapters-group > .card {
     flex-wrap: wrap;
     border-radius: 5px;
     overflow: hidden;
     margin-bottom: 2em;
 }
-
 .chapters-group > .card > .card-body {
     text-align: left;
     margin-bottom: 2.5em;
@@ -620,7 +596,6 @@ small {
 .chapters-group h5 {
     font-family: "Roboto Slab";
 }
-
 .chapters-group p,
 .chapters-group a {
     font-family: "Open Sans";
@@ -630,25 +605,21 @@ small {
     bottom: 0;
     margin: 1.5em 0;
 }
-
 img[src="./images/booksAll.png"] {
     padding-left: 5%;
     border-radius: 10px;
     margin-top: 2em;
     overflow: hidden;
 }
-
 .img-cont {
-    background-image: url(images/fog.jpg);
-    background-position: center center;
+    background: url(images/fog.jpg) center center;
     opacity: 0.5;
     padding: 100px;
 }
-
 #previews {
     list-style: none;
     text-align: left;
-    background-color: white;
+    background-color: #fff;
     width: 40%;
     margin: 2em auto;
     border-radius: 15px;
@@ -672,17 +643,15 @@ img[src="./images/booksAll.png"] {
     border-radius: 10px;
     padding: 2.5em;
 }
-
 .chevron {
     display: inline-block;
-    -webkit-transform: scale(2, 1); /* Safari and Chrome */
-    -moz-transform: scale(2, 1); /* Firefox */
-    -ms-transform: scale(2, 1); /* IE 9 */
-    -o-transform: scale(2, 1); /* Opera */
+    -webkit-transform: scale(2, 1);
+    -moz-transform: scale(2, 1);
+    -ms-transform: scale(2, 1);
+    -o-transform: scale(2, 1);
     transform: scale(2, 1);
     padding-left: 0.4em;
 }
-
 #chap1Preview:hover,
 #chap2Preview:hover,
 #chap3Preview:hover,
@@ -695,7 +664,6 @@ img[src="./images/booksAll.png"] {
     color: #6c757d !important;
     text-decoration: none !important;
 }
-
 #chap1:hover,
 #chap2:hover,
 #chap3:hover,
@@ -706,10 +674,9 @@ img[src="./images/booksAll.png"] {
 #chap8:hover,
 #chap9:hover {
     cursor: pointer;
-    color: blue;
+    color: #00f;
     text-decoration: underline;
 }
-
 .purchaseBook {
     width: 90%;
     margin: auto;
@@ -722,38 +689,33 @@ img[src="./images/booksAll.png"] {
 #purchase .stars {
     width: 90%;
     margin: 1em auto;
-    border: 3px black solid;
+    border: 3px #000 solid;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px #000;
 }
-
 img[src="./icons/stars.png"] {
     width: 125px;
     height: auto;
     margin-top: 0.75em;
 }
-
 .paperback,
 .ebook {
-    border: 2px black solid;
+    border: 2px #000 solid;
     border-radius: 10px;
     padding: 1em;
     margin-bottom: 2em;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px #000;
 }
-
 .paperback:hover,
 .ebook:hover {
-    background: lightgray;
+    background: #d3d3d3;
     transition: 0.6s;
 }
-
 .smashwords-widget {
     margin: 2em auto;
     width: 300px;
     height: 250px;
 }
-
 @media (max-width: 900px) {
     #mainMenu {
         width: 95% !important;
@@ -765,71 +727,49 @@ img[src="./icons/stars.png"] {
         text-align: center;
         margin: 0;
     }
-
     img[src="./images/ebookMini.png"] {
         display: none;
     }
-
     img[src="./images/ebookMiniMobile.png"] {
         display: block;
-        /* width: 100%; */
         border-radius: 25px;
     }
-
     .jumbotron {
         height: auto;
         padding-top: 0.5em;
     }
-
     .jumbotron h1,
     .jumbotron p {
         border-radius: 10px;
         width: 100% !important;
         display: block;
     }
-    .jumbotron p {
-        /* padding: 0.5em; */
-    }
     .jumbotron h1 {
         display: block;
-        margin-top: 1em;
-        text-align: center;
-        /* font-size: 2.3em !important; */
-        font-weight: bold;
-        width: 90% !important;
         margin: auto;
+        text-align: center;
+        font-weight: bold;
     }
-
     .jumbo-content {
         margin: auto;
-
         display: block !important;
     }
-    p.tagline {
-        /* font-size: 0.85em; */
-        /* padding: 1em; */
-    }
-
     .review {
         width: 100%;
     }
-
     .quote {
         margin: 3%;
     }
     .quote > img {
         width: 5%;
     }
-
     .chapters-group {
         margin: auto;
         width: 75%;
     }
-
     .chapters-group > .card {
         flex-basis: 100%;
     }
-
     #previews {
         width: 98%;
         padding-left: 1em;
@@ -853,27 +793,22 @@ img[src="./icons/stars.png"] {
     img[src="./images/booksAll.png"] {
         width: 90%;
     }
-
     .smashwords-widget {
         width: 90%;
     }
-
     #share {
         display: none !important;
     }
-
     .share-link {
         display: hidden;
         text-align: center;
         font-size: 0.8em;
     }
 }
-
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
-
 @media (max-width: 499px) {
     .card-group {
         width: 90%;
@@ -883,16 +818,13 @@ img[src="./icons/stars.png"] {
         background-size: cover;
     }
     .jumbo-text {
-        /* text-align: center; */
         padding: 1em;
     }
-
     .cta-btn-cont a {
         font-size: 0.85em;
     }
     .jumbo-text h1 {
         margin: 0 auto;
-        /* padding:  1em; */
     }
     .card-group > .card {
         flex-direction: column;
@@ -900,7 +832,6 @@ img[src="./icons/stars.png"] {
         padding-bottom: 0;
         align-items: center;
     }
-
     .card-group > .card > .card-body {
         padding-top: 0;
     }
@@ -918,38 +849,38 @@ img[src="./icons/stars.png"] {
         width: 95%;
         margin-top: 2em;
     }
-
     .navbar-brand {
         font-size: 1.25em;
     }
-
     .fixed-header {
         text-align: center;
         padding: 0.3em;
         font-size: 0.8em !important;
     }
-
     .fixed-header img {
         padding-top: 5px;
-        height: 45px;
+        height: 40px;
         width: auto;
     }
-
     .sans-smashwords {
         margin: auto;
     }
-
     footer {
         font-size: 0.8em;
     }
 }
+br {
+    display: none;
+}
 @media (max-width: 350px) {
+    br {
+        display: block;
+    }
     .jumbo-content {
         width: 95%;
         padding: 0;
         font-size: 0.8em;
     }
-
     .cta-btn-cont a {
         font-size: 0.75em;
     }
@@ -960,7 +891,6 @@ img[src="./icons/stars.png"] {
         font-size: 0.85em;
     }
 }
-
 @media (max-width: 400px) {
     header .nav-cont > a {
         font-size: 0.9em;
@@ -995,10 +925,6 @@ img[src="./icons/stars.png"] {
     .lead {
         font-size: 1.75em;
     }
-    /* img {
-        height: 300px;
-        width: auto;
-    } */
     .tagline {
         font-size: 1.25em;
     }
@@ -1006,75 +932,25 @@ img[src="./icons/stars.png"] {
         font-size: 1.5em;
         margin-top: 1.5em;
     }
-    /* .card-group {
-    width: 410px;
-    margin: auto;
-  }
-  .card-group > .card {
-    flex-direction: column;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .card-group > .card > .card-body {
-    padding-top: 0;
-  }
-
-  .card > img {
-    align-self: center;
-  }
-
-  .purchaseBook {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .stars {
-    width: 90%;
-    margin: 1em auto;
-    border: 3px black solid;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px black;
-  }
-
-  .fixed-header {
-    padding: 0.5em;
-  }
-  #review-carousel {
-    display: none;
-  } */
 }
 @media (min-width: 728px) {
-    #testimonials {
-        /* height: 860px; */
-    }
     .reviews-mobile {
         display: none;
     }
-    /* img[src="./images/ebookMini.png"] {
-    height: 385px;
-    width: auto;
-  } */
-
     #previews {
         width: 80%;
     }
-
     .jumbo-text {
         margin-right: 1em;
     }
-
     .card-group {
         width: 88%;
         flex-direction: row !important;
     }
     .card-group > .card {
-        flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+        flex-basis: 50%;
         padding-left: 0;
     }
-
     .features .card-group .card-subtitle {
         padding-left: 0;
         font-size: 1em !important;
@@ -1082,86 +958,63 @@ img[src="./icons/stars.png"] {
     .chapters-group .card .card-img-top {
         height: 245px;
     }
-
     .chapters-group {
         width: 90%;
     }
-
     .chapters-group > .card {
         flex-basis: 48%;
     }
-
     .purchaseBook {
         width: 425px;
     }
-
     img[src="./images/booksAll.png"] {
         width: 60%;
     }
-
     img[src="./icons/maps-lines.svg"] {
         padding-right: 10px;
     }
-
     .stars {
         width: 400px;
     }
-
     .review {
         width: 75%;
     }
-
     .fixed-header {
         padding: 1em;
     }
-
     #share {
         width: 50px;
     }
 }
-
 @media (min-width: 850px) {
     .nav-link {
         font-size: 1em;
     }
-
     .jumbotron > .display-4,
     .jumbotron > .lead,
     .jumbotron > .tagline {
         width: 59%;
     }
 }
-
 @media (min-width: 980px) {
     .card-group {
         width: 80%;
         max-width: 800px;
     }
-
     .chapters-group {
         width: 80%;
     }
-
     .jumbotron {
         margin-top: -0.1em;
     }
-
     #previews {
         width: 50%;
         max-width: 800px;
-        /* font-size: 1.2em; */
     }
-
     .jumbo-content > h1 {
         font-size: 3.7rem !important;
     }
-
-    /* img[src="./images/ebookMini.png"] {
-    height: 400px;
-    width: auto;
-  } */
 }
-
 @media (min-width: 992px) {
     #navbarNavAltMarkup {
         float: right;
@@ -1170,11 +1023,9 @@ img[src="./icons/stars.png"] {
         font-size: 2em;
     }
 }
-
 @media (min-width: 1280px) {
     #mainMenu {
         display: inline-block;
-        /* flex-direction: row!important; */
     }
     .title {
         font-size: 1.75em;
@@ -1189,67 +1040,49 @@ img[src="./icons/stars.png"] {
     .cta-buy {
         font-size: 1.35em;
     }
-
     hr.my-4 {
         margin: auto;
         width: 92%;
     }
-
     img[src="./images/ebookMini.png"] {
         height: 100%;
         width: auto;
     }
-
     img[src="./images/booksAll.png"] {
         width: 50%;
     }
-
     .chapters-group {
         width: 80%;
     }
 }
-
-@media (min-width: 1200px) {
-}
-@media (min-width: 1350px) {
-}
-
 @media (min-width: 1430px) {
     .jumbo-content {
         margin-bottom: 12em;
     }
 }
-
 @media (min-width: 1500px) {
     .card-group {
         width: 50%;
         max-width: 1000px;
     }
     .card-group > .card {
-        flex-basis: 50%; /*override bootstrap flex mq for above 576px */
+        flex-basis: 50%;
     }
-
     .chapters-group > .card {
         flex-basis: 32%;
     }
-
     #share {
         width: 70px;
     }
-
     img[src="./images/booksAll.png"] {
         width: 45%;
     }
 }
-
 @media (min-width: 1800px) {
     .review {
         width: 70%;
     }
 }
-
-/* Blog */
-
 .post {
     width: 70%;
     margin: auto;
