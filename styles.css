@@ -6,7 +6,7 @@ html {
     background-color: #ddd;
 }
 body {
-    max-width: 1500px;
+    max-width: 1600px;
     margin: auto;
 }
 h2 {
@@ -201,12 +201,14 @@ footer {
     display: none;
     background: #063;
 }
+
 #stickyCTA a:hover {
     color: #ffa500 !important;
 }
 #stickyCTA span {
     text-transform: uppercase;
     color: #fff;
+    margin: 0.5em;
     font-weight: 400;
 }
 a[href="#top"] {
@@ -221,6 +223,9 @@ a[href="#top"] {
         font-size: 2em;
         color: #fff;
         margin-left: auto;
+    }
+    .jumbo-text {
+        font-size: 0.9em;
     }
     .jumbo-text .tagline {
         font-size: 1em;
@@ -241,7 +246,7 @@ a[href="#top"] {
     }
 }
 @media (min-width: 900px) {
-    #stickyCTA {
+    #stickyCTA .sticky-cont {
         display: flex !important;
         flex-direction: column;
     }
@@ -301,7 +306,7 @@ img[src="./images/ebookMiniMobile.png"] {
     }
 }
 .jumbo-content img[alt="book thumbnail"] {
-    width: 40%;
+    width: 35%;
     height: auto;
     margin: 1em 0;
     border-radius: 25px;
@@ -376,7 +381,7 @@ img[src="./images/ebookMiniMobile.png"] {
     }
 }
 .jumbo-text h1 {
-    width: 90%;
+    width: 100%;
     text-transform: uppercase;
     text-align: right;
     margin-left: auto;
